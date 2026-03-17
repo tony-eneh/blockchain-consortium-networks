@@ -44,6 +44,11 @@ Core query blocks (to refine in pilot):
 4. Record exclusion reasons.
 5. Generate PRISMA flow counts.
 
+### Reviewer process
+- Two reviewers screen independently for each phase.
+- Conflicts are resolved by discussion; unresolved conflicts go to third-review adjudication.
+- Inter-rater agreement will be reported at title/abstract and full-text phases.
+
 ## Data extraction fields
 - Bibliographic metadata (year, venue, domain).
 - Platform/stack (Fabric, Besu, Quorum, Corda, etc.).
@@ -71,5 +76,19 @@ Core query blocks (to refine in pilot):
 - Target registry: OSF
 - Status: pending registration after search-string pilot freeze.
 
+### Registration package checklist
+- Final protocol text (versioned).
+- Research questions and scope boundaries.
+- Inclusion/exclusion criteria and rationale.
+- Search sources and finalized query strings.
+- Screening/extraction templates.
+- Quality-assessment rubric and scoring rules.
+- Amendments and deviation policy.
+
 ## Amendments policy
 Any protocol changes after pilot must be logged with rationale, date, and impact on inclusion/synthesis.
+
+## Version control and artifacts
+- Protocol versions are tagged in git with change notes.
+- Screening, extraction, and quality sheets are stored as CSV with immutable snapshots per milestone.
+- Any post-registration deviation is documented both in the protocol appendix and commit history.
