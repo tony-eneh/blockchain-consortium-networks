@@ -68,6 +68,17 @@ python3 scripts/dedup_records.py \
   --report-dir data/reports
 ```
 
+### Build the LaTeX Paper
+
+Build from the `paper/` directory with `latexmk`:
+
+```powershell
+cd paper
+latexmk -pdf -interaction=nonstopmode -file-line-error paper.tex
+```
+
+If a previous build was interrupted and left `paper.synctex(busy)` behind, delete that file before rebuilding.
+
 ## Standards
 
 - [PRISMA 2020](http://www.prisma-statement.org/) — reporting guideline
