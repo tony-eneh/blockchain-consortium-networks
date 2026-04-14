@@ -2,10 +2,17 @@
 
 ## Databases
 - IEEE Xplore
-- ACM Digital Library
-- Scopus
 - Web of Science Core Collection
-- arXiv
+- arXiv (via API — `scripts/fetch_arxiv.py`)
+- Semantic Scholar → **dropped** (API rate-limited without key)
+- **OpenAlex** (via API — `scripts/fetch_openalex.py`, replaces ACM DL + Scopus)
+
+### Source substitution note
+ACM Digital Library and Scopus were originally planned but dropped due to access
+constraints (ACM requires premium for CSV export; Scopus requires institutional
+subscription). Semantic Scholar API was attempted but rate-limited without an API key.
+**OpenAlex** (free, open, indexes ~250M works including ACM and Elsevier/Scopus venues)
+is used as a replacement source to maintain coverage.
 
 ## Query design blocks
 - **B1 (technology):** "consortium blockchain" OR "permissioned blockchain" OR "enterprise blockchain" OR "distributed ledger"
@@ -52,14 +59,19 @@ AND (institution* OR "inter-organizational" OR "cross-organizational" OR interba
 AND (governance OR consensus OR privacy OR confidentiality OR interoperability OR "cross-chain")
 AND (implement* OR prototype OR benchmark OR evaluation OR experiment*))
 
-### arXiv
-("consortium blockchain" OR "permissioned blockchain" OR "enterprise blockchain" OR "distributed ledger")
-AND
-(institution OR interbank OR consortium OR "cross-organizational" OR "multi-party")
-AND
-(governance OR consensus OR privacy OR interoperability OR "cross-chain")
-AND
-(implementation OR prototype OR benchmark OR evaluation OR experiment)
+### arXiv (via API)
+arXiv's web search cannot handle complex Boolean queries.
+We use the official Atom API (`scripts/fetch_arxiv.py`) with multiple focused
+sub-queries covering technology × setting × strategy combinations. See script
+for the full query list. Date filter: 2021–present.
+
+### Semantic Scholar (dropped)
+API rate-limited without an API key. Replaced by OpenAlex.
+
+### OpenAlex (via API)
+OpenAlex's Works API (`scripts/fetch_openalex.py`) is queried with keyword
+combinations covering the same conceptual blocks. It indexes ACM, Springer,
+Elsevier, IEEE, and other venues (~250M works). Date filter: 2021–present.
 
 ## Pilot/refinement protocol
 1. Run each query and collect top 100 results by relevance/date.
