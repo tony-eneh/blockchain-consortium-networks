@@ -33,10 +33,13 @@
 \begin{abstract}
 Institutional actors---banks, regulators, insurers, public agencies, and enterprise consortia---increasingly adopt permissioned and hybrid blockchain architectures to coordinate shared workflows across trust boundaries.
 Despite rapid platform proliferation, the technical design space remains fragmented: strategy choices spanning consensus mechanisms, governance models, privacy layers, and interoperability patterns are often made without comparable empirical evidence.
-This paper presents a PRISMA~2020 systematic review that synthesizes technical evidence on blockchain utilization strategies deployed in institutional consortium networks.
-We searched IEEE~Xplore, ACM Digital Library, Scopus, Web of Science, and arXiv, screening studies for explicit implementation detail and quantitative evaluation in multi-party institutional settings.
-We taxonomize reported strategies across architecture, governance, consensus, privacy, and interoperability dimensions (RQ1); evaluate empirical trade-offs among performance, resilience, privacy, and operational complexity (RQ2); assess interoperability pattern effectiveness under institutional constraints (RQ3); and identify reproducibility gaps that motivate a reference implementation plan (RQ4).
-\todo{Add result counts, key findings, and conclusion sentence after analysis.}
+This paper reports the current status of a PRISMA~2020 systematic review targeting blockchain utilization strategies in institutional consortium networks.
+The repository currently contains the review protocol, database-specific search workflow, deduplication pipeline, and preliminary title/abstract screening outputs.
+Searches were executed across IEEE~Xplore, Web of Science, arXiv, and OpenAlex (used as a practical replacement for ACM Digital Library and Scopus due access constraints).
+These searches identified 1,707 records, of which 1,638 remained after deduplication.
+Preliminary title/abstract screening marked 571 records for inclusion, excluded 775, and flagged 292 as uncertain.
+A two-stage agent workflow then resolved every uncertain record: a rule-based second-pass triage and an automated full-text review of all openly accessible papers (15 downloaded PDFs and 38 open-access landing pages) yielded 143 promotions to include and 149 exclusions (paywalled-only, low-confidence, or out-of-scope), leaving 714 candidate studies (571 first-pass includes plus 143 promoted from uncertain) carried forward to author-level full-text screening.
+Full-text screening of those 714 candidates, data extraction, quality assessment, and evidence synthesis across architecture, governance, consensus, privacy, and interoperability dimensions remain ongoing.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -145,8 +148,7 @@ The remainder of this paper is organized as follows.
 \label{sec:method}
 
 This review follows the PRISMA~2020 reporting guidelines~\cite{page2021prisma} and PRISMA-S extension for search reporting~\cite{rethlefsen2021prismas}.
-The protocol was pre-registered on the Open Science Framework (OSF).
-\todo{Insert OSF registration DOI after registration.}
+The protocol draft has been prepared, but Open Science Framework (OSF) registration is still pending.
 
 \subsection{Eligibility Criteria}
 
@@ -156,18 +158,21 @@ Studies were excluded if they were non-technical commentary or policy-only analy
 
 \subsection{Information Sources and Search Strategy}
 
-Five electronic databases were searched: IEEE~Xplore, ACM Digital Library, Scopus, Web of Science Core Collection, and arXiv.
+The current repository snapshot searched four operational sources: IEEE~Xplore, Web of Science Core Collection, arXiv, and OpenAlex.
+OpenAlex was used as a practical replacement source for ACM Digital Library and Scopus because ACM export access and Scopus search access were unavailable in the working environment.
 The search query was constructed from four Boolean blocks addressing technology terms, institutional setting, strategy dimensions, and technical evidence indicators.
-Database-specific query adaptations are provided in full in the supplementary material.
-
-\todo{Insert final search dates, result counts per database, and any supplementary search methods (citation chaining, grey literature).}
+Search execution artifacts were frozen on 2026-04-14.
+The resulting source counts were 386 records from IEEE~Xplore, 50 from Web of Science, 49 from arXiv, and 1,222 from OpenAlex, for 1,707 records before deduplication.
 
 \subsection{Selection Process}
 
 Records were exported as CSV, deduplicated by DOI, URL, and normalized title-year matching, and managed using a custom deduplication pipeline.
-Screening proceeded in two stages: title/abstract screening followed by full-text assessment against the eligibility criteria.
-Two reviewers screened independently at each stage; conflicts were resolved by discussion with adjudication by a third reviewer for unresolved disagreements.
-Inter-rater agreement was measured using Cohen's kappa at both stages.
+The current repository state includes completion of deduplication and a first-pass title/abstract screening stage, followed by planned full-text assessment against the eligibility criteria.
+The first-pass screening was generated by a rule-based triage script aligned to the protocol criteria, assigning each record to INCLUDE, EXCLUDE, or UNCERTAIN classes.
+The repository now also includes generated full-text screening and data-extraction sheets for the 863 candidate studies carried forward from the first-pass screen.
+The 292 uncertain records were resolved by an agent-driven, auditable two-stage workflow: (i)~a rule-based second-pass triage classified each record as likely\_include, likely\_exclude, or needs\_manual; (ii)~for the needs\_manual subset an open-access discovery script queried OpenAlex and arXiv, downloaded all retrievable open PDFs, and an agent full-text reviewer applied the inclusion criteria to every accessible paper.
+The finalisation step then promoted second-pass likely\_include records and agent full-text includes to the candidate pool, and conservatively excluded records that were either (a)~judged likely\_exclude in the second pass, (b)~assessed by the agent as failing the protocol on the available text, (c)~returned needs\_human\_check by the agent (defaulted to exclude), or (d)~had no open full-text access.
+Final author-level full-text screening, conflict adjudication, and reviewer statistics for the resulting candidate pool remain ongoing.
 
 \subsection{Data Extraction}
 
@@ -191,11 +196,19 @@ Evidence was synthesized through (1)~taxonomy construction across the five strat
 
 \subsection{Study Selection}
 
-\todo{Insert PRISMA flow diagram (identification, screening, eligibility, included counts). Reference the diagram as a figure.}
+The current study-selection pipeline has completed the identification, deduplication, and preliminary title/abstract screening phases.
+Across the four operational sources, 1,707 records were identified: 386 from IEEE~Xplore, 50 from Web of Science, 49 from arXiv, and 1,222 from OpenAlex.
+Deduplication removed 69 records (40 DOI matches and 29 title-year matches), leaving 1,638 unique records for screening.
+Preliminary title/abstract screening excluded 775 records, marked 571 as included, and flagged 292 as uncertain for adjudication.
+The agent-driven uncertain-resolution workflow then processed all 292 uncertain records: 123 were promoted to include via second-pass triage, 20 additional records were promoted via accessible full-text agent review, 1 was excluded after full-text review, 32 were conservatively excluded after needs\_human\_check verdicts, 48 were excluded as second-pass likely\_exclude, and 68 were excluded for lack of open full-text access (paywalled-only).
+The finalised uncertain partition is therefore 143 included and 149 excluded, and the effective candidate pool for author-level full-text review is now 714 records (571 first-pass includes plus 143 promoted from uncertain).
+
+\todo{Insert PRISMA flow diagram figure once full-text review and exclusion-reason coding are complete.}
 
 \subsection{Study Characteristics}
 
-\todo{Summary table of included studies: year distribution, venue types, application domains, platforms used.}
+Study-characteristics extraction has not yet been completed because the final full-text inclusion set is still under construction.
+An extraction sheet has already been generated in the repository for the 863 candidate studies that survived first-pass screening, covering publication year, venue, domain, platform, consensus, governance, privacy mechanism, interoperability approach, workload, metrics, and reproducibility artifacts; the 714-record post-uncertain-finalisation pool is a strict subset of that sheet.
 
 \subsection{RQ1: Taxonomy of Blockchain Utilization Strategies}
 
