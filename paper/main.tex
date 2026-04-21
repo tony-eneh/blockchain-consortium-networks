@@ -8,6 +8,8 @@
 \usepackage{xcolor}
 \usepackage{booktabs}
 \usepackage{multirow}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,shapes,calc}
 \usepackage{hyperref}
 \usepackage{cleveref}
 
@@ -38,8 +40,9 @@ The repository currently contains the review protocol, database-specific search 
 Searches were executed across IEEE~Xplore, Web of Science, arXiv, and OpenAlex (used as a practical replacement for ACM Digital Library and Scopus due access constraints).
 These searches identified 1,707 records, of which 1,638 remained after deduplication.
 Preliminary title/abstract screening marked 571 records for inclusion, excluded 775, and flagged 292 as uncertain.
-A two-stage agent workflow then resolved every uncertain record: a rule-based second-pass triage and an automated full-text review of all openly accessible papers (15 downloaded PDFs and 38 open-access landing pages) yielded 143 promotions to include and 149 exclusions (paywalled-only, low-confidence, or out-of-scope), leaving 714 candidate studies (571 first-pass includes plus 143 promoted from uncertain) carried forward to author-level full-text screening.
-Full-text screening of those 714 candidates, data extraction, quality assessment, and evidence synthesis across architecture, governance, consensus, privacy, and interoperability dimensions remain ongoing.
+A two-stage agent workflow then resolved every uncertain record: a rule-based second-pass triage and an automated full-text review of all openly accessible papers (15 downloaded PDFs and 38 open-access landing pages) yielded 143 promotions to include and 149 exclusions.
+A second agent full-text review pass over the 571 first-pass include records (in-memory PDF and HTML extraction with the same protocol-aligned heuristic) added 136 includes and 435 exclusions, producing a current author-confirmed candidate-included set of 279 records out of 863 candidates (final full-text exclusions: 584; dominant reason: no open-access full text).
+Data extraction, quality assessment, and evidence synthesis across architecture, governance, consensus, privacy, and interoperability dimensions remain ongoing.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -201,14 +204,19 @@ Across the four operational sources, 1,707 records were identified: 386 from IEE
 Deduplication removed 69 records (40 DOI matches and 29 title-year matches), leaving 1,638 unique records for screening.
 Preliminary title/abstract screening excluded 775 records, marked 571 as included, and flagged 292 as uncertain for adjudication.
 The agent-driven uncertain-resolution workflow then processed all 292 uncertain records: 123 were promoted to include via second-pass triage, 20 additional records were promoted via accessible full-text agent review, 1 was excluded after full-text review, 32 were conservatively excluded after needs\_human\_check verdicts, 48 were excluded as second-pass likely\_exclude, and 68 were excluded for lack of open full-text access (paywalled-only).
-The finalised uncertain partition is therefore 143 included and 149 excluded, and the effective candidate pool for author-level full-text review is now 714 records (571 first-pass includes plus 143 promoted from uncertain).
+The finalised uncertain partition is therefore 143 included and 149 excluded, producing an interim candidate pool of 714 records.
 
-\todo{Insert PRISMA flow diagram figure once full-text review and exclusion-reason coding are complete.}
+A second agent full-text review pass was then executed across the 571 first-pass include records, fetching open-access PDFs and HTML landing pages where available and applying the same protocol-aligned heuristic.
+This pass yielded 136 includes and 435 exclusions among the first-pass include set; combined with the 143 includes promoted from the uncertain queue this produces a final candidate-included set of 279 records and a full-text exclusion set of 584 records (Fig.~\ref{fig:prisma-flow}).
+The dominant agent exclusion reason was lack of accessible full text (491 records, combining \texttt{no\_full\_text\_access} and \texttt{insufficient\_fulltext\_access}); 48 were second-pass triage exclusions, 34 were borderline cases conservatively excluded, and 11 failed protocol criteria on the available text.
+All agent decisions are recorded in \texttt{data/processed/fulltext\_screening.csv} with per-row reason codes and confidence levels, and remain subject to author-level confirmation before publication.
+
+\input{figures/prisma_flow.tex}
 
 \subsection{Study Characteristics}
 
-Study-characteristics extraction has not yet been completed because the final full-text inclusion set is still under construction.
-An extraction sheet has already been generated in the repository for the 863 candidate studies that survived first-pass screening, covering publication year, venue, domain, platform, consensus, governance, privacy mechanism, interoperability approach, workload, metrics, and reproducibility artifacts; the 714-record post-uncertain-finalisation pool is a strict subset of that sheet.
+Study-characteristics extraction has not yet been completed because the final author-confirmed inclusion set is still under construction.
+An extraction sheet has already been generated in the repository for the 863 candidate studies that survived first-pass screening; the 279-record post-full-text agent inclusion set is a strict subset of that sheet and provides the working population for data extraction, quality assessment, and synthesis in the next review iteration.
 
 \subsection{RQ1: Taxonomy of Blockchain Utilization Strategies}
 

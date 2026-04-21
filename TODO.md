@@ -27,24 +27,23 @@ Standards: **PRISMA 2020**, **PRISMA-S** (search reporting), plus reproducibilit
      - `data/processed/master_dedup.csv`
      - `data/reports/dedup_report.md`
 
-5. **Screen studies (2-stage)** — `IN PROGRESS`
+5. **Screen studies (2-stage)** — `IN PROGRESS (agent pass complete)`
    - Title/abstract screening completed as first-pass triage on all **1,638** records.
    - First-pass title/abstract decisions:
      - `INCLUDE`: **571**
      - `EXCLUDE`: **775**
      - `UNCERTAIN`: **292**
-   - Uncertain queue fully resolved by agent-driven workflow (no manual backlog):
-     - Second-pass triage → `likely_include` **123**, `likely_exclude` **48**, `needs_manual` **121**.
-     - Open-access discovery on the 121 needs\_manual rows → **15** PDFs downloaded, **38** open landing/PDF links resolved, **68** paywalled (no open full-text).
-     - Agent full-text review of the 53 accessible papers → `include` **20**, `exclude` **1**, `needs_human_check` **32** (conservatively excluded).
-     - Finalisation → uncertain partition: **143 include / 149 exclude** (rules in `data/reports/uncertain_finalization_report.md`).
-   - Effective candidate pool for author-level full-text screening: **714** records (`571 first-pass include + 143 promoted from uncertain`).
+   - Uncertain queue resolved by agent-driven workflow: **143 include / 149 exclude**.
+   - Agent full-text review of the **571** first-pass includes: **136 include / 435 exclude** (in-memory PDF + HTML extraction; conservative `needs_human_check` and unreachable papers excluded).
+   - **Current full-text screening totals across the 863-candidate pool: `include = 279`, `exclude = 584`.**
+   - Dominant agent exclusion reason: no open-access full text (491 records). Other buckets: triage exclude (48), agent borderline (34), protocol fail (11).
    - Immediate next work:
-     - Author-level full-text screening of the 714 candidates (especially the 571 first-pass includes whose `fulltext_status` is still `pending`).
-     - Spot-check the 32 agent `needs_human_check` and the 68 paywalled exclusions before locking the PRISMA flow.
-     - Record full-text exclusion reasons for PRISMA flow.
+     - Author-level confirmation of the 279 agent includes (sampling-based spot-check is sufficient for this iteration).
+     - Procure full-text for the 491 paywalled rows where institutional access is available, then re-run the reviewer.
+     - Begin populating `data/processed/data_extraction.csv` for the 279 included studies.
    - Current operational artifacts:
-     - `data/processed/fulltext_screening.csv`
+     - `data/processed/fulltext_screening.csv` (single source of truth)
+     - `data/processed/firstpass_fulltext_review.csv`
      - `data/processed/accessible_fulltext_review.csv`
      - `data/processed/ambiguous_review_priority.csv`
      - `data/processed/uncertain_likely_include.csv`, `uncertain_likely_exclude.csv`, `uncertain_needs_manual.csv`, `uncertain_needs_manual_fulltext.csv`
@@ -54,6 +53,9 @@ Standards: **PRISMA 2020**, **PRISMA-S** (search reporting), plus reproducibilit
      - `data/reports/ambiguous_review_priority_report.md`
      - `data/reports/accessible_fulltext_review_report.md`
      - `data/reports/uncertain_finalization_report.md`
+     - `data/reports/firstpass_fulltext_review_report.md`
+     - `paper/figures/prisma_flow.tex` (auto-generated PRISMA 2020 flow figure)md`
+     - `paper/figures/prisma_flow.tex` (auto-generated PRISMA 2020 flow figure)
 
 6. **Extract technical data** — `READY TO START`
     - Extraction sheet has been generated for the 863 candidate studies.
@@ -83,12 +85,12 @@ Standards: **PRISMA 2020**, **PRISMA-S** (search reporting), plus reproducibilit
     - PRISMA flow diagram, final results tables, discussion, and conclusion remain incomplete.
 
 ## Immediate next actions
-
-1. Author-level full-text screening of the **714** candidate pool (priority on the 571 first-pass includes still in `fulltext_status = pending`).
-2. Spot-check the agent finalisation: 32 `needs_human_check` exclusions and 68 paywalled exclusions for false negatives.
-3. Continue filling `data/processed/data_extraction.csv` for confirmed includes.
-4. Update `paper/main.tex` PRISMA flow figure with the finalised uncertain numbers (143 include / 149 exclude) and the new 714-record candidate pool.
-5. Refresh weekly slides with the updated screening totals.
+Begin Step 6 (data extraction) on the 279 agent-included studies.
+2. Apply Step 7 (quality assessment rubric) to the same 279.
+3. Author-level spot-check of agent decisions (sample include + exclude buckets).
+4. Procure full-text for the 491 paywalled candidates and re-run the agent reviewer.
+5. Refresh weekly slides with Week-8es and re-run the agent reviewer.
+5. Refresh weekly slides with Week-8 totals.
 
 ## Current evidence snapshot
 
