@@ -57,15 +57,27 @@ Standards: **PRISMA 2020**, **PRISMA-S** (search reporting), plus reproducibilit
      - `paper/figures/prisma_flow.tex` (auto-generated PRISMA 2020 flow figure)md`
      - `paper/figures/prisma_flow.tex` (auto-generated PRISMA 2020 flow figure)
 
-6. **Extract technical data** — `READY TO START`
-    - Extraction sheet has been generated for the 863 candidate studies.
-    - Current artifact:
-       - `data/processed/data_extraction.csv`
-    - Fields cover architecture, consensus, governance, privacy, interoperability, metrics, workload, reproducibility, and quality notes.
+6. **Extract technical data** — `BOOTSTRAPPED (Week 9)`
+    - Extraction sheet generated for the full 863-candidate scaffold; per-include sheet generated for the 279 final includes with abstract-only heuristic seeds for 7 of 37 fields (504 auto-filled cells, all `[auto] `-prefixed).
+    - Heuristic taxonomy signal so far: 159 IoT/edge, 105 healthcare, 69 supply-chain, 49 Fabric, 32 Ethereum, 12 PBFT.
+    - Current artifacts:
+       - `data/processed/data_extraction.csv` (863-row scaffold)
+       - `data/processed/data_extraction_includes.csv` (**NEW** — 279 includes + bootstrap)
+       - `data/reports/data_extraction_bootstrap_report.md`
+    - Next: full-text rubric pass on tier-A/B (148 papers) to fill the remaining 30 fields.
 
-7. **Quality assessment** — `NOT STARTED`
-   - Need explicit scoring rubric and thresholds.
-   - Apply after full-text inclusion list is stable.
+7. **Quality assessment** — `RUBRIC LIVE (Week 9)`
+   - Screening-stage rubric (4 PRISMA dimensions × 0–2, total 0–8) implemented and applied to the 279 final includes.
+   - Tier distribution: **A 26 / B 122 / C 110 / D 21**. 148/279 (53%) score B or higher → priority queue for the deep-read pass.
+   - Current artifacts:
+       - `scripts/quality_assessment.py`
+       - `data/processed/quality_assessment.csv`
+       - `data/reports/quality_assessment_report.md`
+   - Companion spot-check sampler: 40 stratified rows (20 includes × tier + 20 excludes × reason), seed `20260428`.
+       - `scripts/sample_spotcheck.py`
+       - `data/processed/spotcheck_sample.csv`
+       - `data/reports/spotcheck_sample_report.md`
+   - Next: complete author spot-check audit; replace abstract-only scores with full-text scores on tier-A/B.
 
 8. **Synthesize evidence** — `NOT STARTED`
    - Taxonomy, evidence tables, and gap map depend on extracted full-text dataset.
@@ -85,12 +97,11 @@ Standards: **PRISMA 2020**, **PRISMA-S** (search reporting), plus reproducibilit
     - PRISMA flow diagram, final results tables, discussion, and conclusion remain incomplete.
 
 ## Immediate next actions
-Begin Step 6 (data extraction) on the 279 agent-included studies.
-2. Apply Step 7 (quality assessment rubric) to the same 279.
-3. Author-level spot-check of agent decisions (sample include + exclude buckets).
-4. Procure full-text for the 491 paywalled candidates and re-run the agent reviewer.
-5. Refresh weekly slides with Week-8es and re-run the agent reviewer.
-5. Refresh weekly slides with Week-8 totals.
+1. Reviewer fills `human_decision` in `data/processed/spotcheck_sample.csv` (40 rows) and we compute the agent-vs-human agreement rate.
+2. Full-text rubric pass on the 148 tier-A/B includes (replaces the abstract-only screening scores in `data/processed/quality_assessment.csv`).
+3. Extraction deep-fill on the 26 tier-A papers — populate the 30 non-bootstrapped extraction fields.
+4. Procure full-text for the 491 paywalled candidates and re-run `scripts/review_firstpass_fulltexts.py`.
+5. Begin Step 8 synthesis: taxonomy tables grouped by domain × platform × consensus once tier-A extractions are complete.
 
 ## Current evidence snapshot
 
