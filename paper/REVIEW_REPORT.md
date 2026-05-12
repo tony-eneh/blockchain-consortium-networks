@@ -52,7 +52,8 @@ Drafted the empty Results, Discussion, and Conclusion sections for the paper **"
 - Some bibliography metadata is intentionally flagged for verification before submission, especially:
   - `thomas2023interop`
   - `milosevic2018unibright`
-- LaTeX compilation was **not** verified in-session because `pdflatex`/`bibtex` were not available in the environment
+- LaTeX compilation was verified in-session and `paper.pdf` was produced successfully
+- The repository snapshot still does **not** contain raw search exports, a deduplicated master corpus, or a screening log, so exact PRISMA counts remain intentionally unresolved in `paper.tex`
 - Other pre-existing TODOs in Background/Methodology remain unchanged
 
 ## Suggested Next Checks
