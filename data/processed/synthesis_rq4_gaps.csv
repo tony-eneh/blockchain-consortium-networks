@@ -1,0 +1,281 @@
+study_id,year,tier,artifact_code,artifact_data,artifact_config,reproducibility_notes,operational_complexity,has_evaluation,has_metrics,platform_stack,domain
+ST-0001,2026,C,no,no,no,,,no,no,not specified,unclassified
+ST-0002,2026,B,no,no,no,no reproducibility signals in full text,overhead; Scalable; Scalability; complexity,yes,yes,Hyperledger Fabric; Polkadot/Substrate; Bitcoin,finance/banking; supply chain; government/public sector; identity/PKI; education
+ST-0003,2026,C,no,no,no,,,no,no,not specified,supply chain; energy/utilities; identity; education
+ST-0004,2026,B,no,no,no,no reproducibility signals in full text,overhead; scalability; scalable; Overhead; Scalability,yes,yes,Hyperledger Fabric,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0005,2026,C,no,no,no,,,no,no,not specified,supply chain
+ST-0006,2025,B,yes,no,yes,signals found: code available; config available,overhead,yes,yes,Hyperledger Fabric; Bitcoin,healthcare; supply chain; energy/utilities; identity/PKI; education
+ST-0007,2025,B,yes,no,yes,signals found: code available; config available,scalability; Scalability; scalable; administration; maintenance,yes,yes,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI
+ST-0008,2025,C,no,no,no,,,no,no,Cosmos,unclassified
+ST-0009,2025,C,no,no,no,,,no,no,not specified,unclassified
+ST-0010,2025,B,no,no,no,,,no,no,not specified,supply chain
+ST-0011,2025,B,yes,no,yes,signals found: code available; config available,scalability; scalable; Administration,yes,yes,Hyperledger Fabric; Hyperledger Besu; Ethereum,finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0012,2025,C,no,no,no,,,no,no,Hyperledger Fabric,IoT/edge
+ST-0013,2024,C,no,no,no,,,no,no,not specified,unclassified
+ST-0014,2024,D,no,no,no,,,no,no,not specified,unclassified
+ST-0015,2024,C,no,no,no,,,no,no,not specified,unclassified
+ST-0016,2024,C,no,no,no,,,no,no,Hyperledger Fabric,IoT/edge
+ST-0017,2024,C,no,no,no,,,no,no,not specified,government/public sector; IoT/edge
+ST-0018,2024,A,yes,no,no,signals found: code available,Scalable; scalability; Scalability,yes,yes,Hyperledger Fabric; Hyperledger Besu; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility
+ST-0019,2024,B,yes,no,yes,signals found: code available; config available,maintenance; scalability; scalable,yes,yes,Hyperledger Fabric; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0020,2023,B,no,no,no,no reproducibility signals in full text,overhead; complexity,yes,yes,Hyperledger Fabric; Bitcoin,IoT/edge/CPS
+ST-0021,2023,C,no,no,no,,,no,no,not specified,IoT/edge; education
+ST-0022,2023,B,yes,no,no,signals found: code available,administration; scalable; scalability,yes,yes,Hyperledger Fabric; Ethereum; Bitcoin,supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS
+ST-0023,2023,C,no,no,no,,,no,no,Hyperledger Besu,healthcare; finance/banking; supply chain; IoT/edge; education
+ST-0024,2023,C,no,no,no,,,no,no,not specified,healthcare; finance/banking
+ST-0025,2023,B,yes,no,yes,signals found: code available; config available,scalable; scalability,yes,yes,Hyperledger Fabric; Ethereum,healthcare; finance/banking; government/public sector; identity/PKI; education
+ST-0026,2022,C,no,no,no,,,no,no,Hyperledger Fabric,supply chain; IoT/edge
+ST-0027,2022,B,yes,no,no,signals found: code available,scalability; scalable; complexity; overhead,yes,yes,Hyperledger Fabric; Ethereum; IOTA; Bitcoin,healthcare; finance/banking; supply chain; energy/utilities; identity/PKI; IoT/edge/CPS
+ST-0028,2022,D,no,no,no,,,no,no,not specified,unclassified
+ST-0029,2022,B,no,no,no,no reproducibility signals in full text,overhead; complexity,yes,yes,Hyperledger Iroha; Ethereum,finance/banking; government/public sector; identity/PKI; education
+ST-0030,2022,C,no,no,no,,,no,no,not specified,unclassified
+ST-0031,2022,B,yes,no,no,signals found: code available,scalability; scalable; overhead; complexity,yes,yes,Hyperledger Fabric; Quorum; Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility
+ST-0032,2022,C,no,no,no,,,no,no,Hyperledger Fabric; Corda,IoT/edge
+ST-0033,2021,D,no,no,no,,,no,no,not specified,unclassified
+ST-0034,2021,C,no,no,no,,,no,no,not specified,unclassified
+ST-0035,2021,C,no,no,no,,,no,no,not specified,finance/banking; IoT/edge
+ST-0036,2021,C,no,no,no,,,no,no,not specified,healthcare
+ST-0037,2021,B,yes,no,no,signals found: code available,overhead; scalability; complexity; scalable; Complexity,yes,yes,Hyperledger Fabric; Quorum; Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture
+ST-0038,2021,B,yes,no,yes,signals found: code available; config available,Scalability; scalability; overhead; scalable; complexity; Scalable,yes,yes,Hyperledger Fabric; Quorum; Ethereum; Bitcoin,finance/banking; identity/PKI
+ST-0039,2021,C,no,no,no,,,no,no,Hyperledger Fabric,finance/banking; supply chain; identity; IoT/edge; education
+ST-0040,2021,C,no,no,no,,,no,no,Hyperledger Fabric; Hyperledger Besu; Ethereum,IoT/edge
+ST-0041,2021,B,yes,no,yes,signals found: code available; config available,scalability; Scalable; scalable,yes,yes,Hyperledger Fabric; Quorum; Ethereum; Cosmos/Tendermint,supply chain; government/public sector; identity/PKI; IoT/edge/CPS
+ST-0042,2021,C,no,no,no,,,no,no,Hyperledger Fabric,IoT/edge
+ST-0043,2021,B,yes,no,no,signals found: code available,overhead; maintenance; scalability; complexity; scalable,yes,yes,Hyperledger Fabric; Corda; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education
+ST-0044,2021,B,no,no,yes,signals found: config available,overhead; scalability; complexity; scalable,yes,yes,Hyperledger Fabric; Corda; Ethereum; Bitcoin,finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI
+ST-0045,2025,B,no,no,no,no reproducibility signals in full text,complexity; maintenance,yes,yes,not specified,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; IoT/edge/CPS; education; transportation/mobility
+ST-0053,2025,B,no,no,no,no reproducibility signals in full text,scalability; Scalability; complexity; scalable; administration; overhead,yes,yes,Hyperledger Fabric; Ethereum; Cosmos/Tendermint; Ripple/XRP; Stellar; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS
+ST-0055,2024,B,no,no,no,,,no,no,not specified,healthcare
+ST-0060,2026,B,no,no,no,,,no,no,not specified,supply chain; identity
+ST-0067,2025,A,no,no,no,,,no,no,not specified,supply chain
+ST-0071,2024,C,no,no,no,,,no,no,not specified,healthcare
+ST-0075,2025,A,no,no,no,,,no,no,not specified,government/public sector; energy/utilities; identity; IoT/edge; education
+ST-0083,2024,A,no,no,no,,,no,no,Ethereum,healthcare; IoT/edge
+ST-0084,2021,B,no,no,no,,,no,no,not specified,finance/banking; supply chain
+ST-0088,2025,B,no,no,no,,,no,no,not specified,healthcare
+ST-0095,2024,B,no,no,no,no reproducibility signals in full text,overhead; scalability,no,yes,Hyperledger Fabric,education
+ST-0097,2023,B,no,no,no,,,no,no,not specified,government/public sector
+ST-0098,2026,A,no,no,no,,,no,no,not specified,government/public sector; IoT/edge
+ST-0099,2022,C,no,no,no,,,no,no,not specified,IoT/edge; education
+ST-0113,2025,B,no,no,no,,,no,no,not specified,supply chain; government/public sector; education
+ST-0125,2023,B,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0128,2021,B,no,no,no,,,no,no,not specified,healthcare; finance/banking
+ST-0147,2024,C,no,no,no,,,no,no,not specified,healthcare; supply chain; IoT/edge
+ST-0163,2023,C,no,no,no,,,no,no,not specified,healthcare; education
+ST-0164,2024,B,yes,yes,no,signals found: code available; data available,scalable; overhead,yes,yes,Hyperledger Fabric; Ethereum; Ripple/XRP; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; education
+ST-0169,2021,C,no,no,no,,,no,no,not specified,IoT/edge
+ST-0171,2025,B,no,no,no,,,no,no,Hyperledger Fabric,IoT/edge; education
+ST-0172,2025,C,no,no,no,,,no,no,not specified,IoT/edge
+ST-0175,2025,B,no,no,no,,,no,no,not specified,healthcare; finance/banking; supply chain
+ST-0182,2022,A,no,no,no,no reproducibility signals in full text,scalability; scalable; overhead; complexity,yes,yes,Hyperledger Fabric; Hyperledger Besu; Hyperledger Sawtooth; Hyperledger Iroha; Ethereum,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; transportation/mobility
+ST-0197,2025,B,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0203,2025,B,no,no,no,,,no,no,Hyperledger Fabric,IoT/edge; education
+ST-0224,2023,C,no,no,no,,,no,no,not specified,healthcare
+ST-0227,2025,B,no,no,no,,,no,no,not specified,supply chain; government/public sector; IoT/edge
+ST-0250,2024,B,no,no,no,,,no,no,not specified,identity; education
+ST-0267,2023,B,no,no,no,,,no,no,not specified,finance/banking; supply chain; government/public sector; IoT/edge
+ST-0270,2025,A,no,no,no,,,no,no,Ethereum,finance/banking; supply chain; government/public sector
+ST-0277,2023,B,no,no,no,,,no,no,not specified,government/public sector; education
+ST-0282,2024,B,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0283,2025,B,no,no,no,,,no,no,not specified,healthcare; identity
+ST-0289,2022,C,no,no,no,,,no,no,not specified,healthcare
+ST-0290,2021,B,no,no,no,,,no,no,not specified,supply chain
+ST-0296,2026,C,no,no,no,,,no,no,not specified,government/public sector
+ST-0297,2026,B,no,no,no,,,no,no,not specified,supply chain; government/public sector
+ST-0299,2026,B,no,no,no,no reproducibility signals in full text,scalability; scalable; Scalability; complexity,yes,yes,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education
+ST-0300,2025,B,no,no,yes,signals found: config available,scalable; scalability; Scalable; Scalability,yes,yes,Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility
+ST-0305,2025,B,no,no,no,no reproducibility signals in full text,Scalable; scalability; scalable; maintenance; Scalability,yes,no,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture
+ST-0308,2025,A,no,no,no,,,no,no,not specified,government/public sector
+ST-0310,2025,B,no,no,no,no reproducibility signals in full text,scalability; overhead; scalable; complexity; scalability2,yes,yes,Ethereum,healthcare; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education
+ST-0315,2025,B,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0316,2025,B,no,no,no,no reproducibility signals in full text,scalability; overhead; scalable,no,yes,not specified,healthcare; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture
+ST-0317,2025,C,no,no,no,,,no,no,not specified,identity; IoT/edge; education
+ST-0318,2025,B,no,no,yes,signals found: config available,scalability; scalable; Scalability; overhead,yes,yes,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; agriculture
+ST-0319,2025,A,no,no,no,no reproducibility signals in full text,scalable,no,no,Ethereum,healthcare; supply chain; government/public sector; identity/PKI; IoT/edge/CPS
+ST-0321,2025,C,no,no,no,,,no,no,not specified,finance/banking; government/public sector
+ST-0325,2025,C,no,no,no,,,no,no,not specified,supply chain; government/public sector; IoT/edge
+ST-0326,2025,C,no,no,no,,,no,no,not specified,healthcare
+ST-0328,2025,C,no,no,no,,,no,no,not specified,healthcare; supply chain; government/public sector; identity; education
+ST-0329,2025,D,no,no,no,,,no,no,not specified,IoT/edge
+ST-0330,2025,B,no,no,no,no reproducibility signals in full text,scalability; maintenance; Maintenance; overhead,yes,yes,Hyperledger Fabric; Quorum; Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education
+ST-0333,2025,B,no,no,no,no reproducibility signals in full text,scalability; scalable; overhead; Scalability; complexity; Complexity,yes,yes,Hyperledger Fabric; Ethereum,finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0336,2025,B,no,no,no,no reproducibility signals in full text,scalable; scalability; complexity; Scalability; overhead; administration,yes,yes,Hyperledger Fabric,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education
+ST-0337,2025,B,no,no,no,,,no,no,not specified,healthcare; government/public sector; identity
+ST-0340,2025,A,yes,no,no,signals found: code available,complexity; maintenance; scalability; scalable,yes,yes,Hyperledger Fabric,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education
+ST-0342,2025,C,no,no,no,,,no,no,not specified,identity; IoT/edge
+ST-0343,2025,D,no,no,no,,,no,no,not specified,IoT/edge
+ST-0345,2025,C,no,no,no,,,no,no,not specified,government/public sector; IoT/edge
+ST-0347,2025,B,no,no,no,,,no,no,not specified,finance/banking; identity; education
+ST-0348,2025,C,no,no,no,,,no,no,not specified,finance/banking; government/public sector; identity; IoT/edge
+ST-0349,2025,B,no,no,no,no reproducibility signals in full text,,no,no,not specified,supply chain; government/public sector; IoT/edge
+ST-0350,2025,A,no,no,no,no reproducibility signals in full text,scalability,no,no,Hyperledger Fabric; Corda,finance/banking; government/public sector
+ST-0351,2025,C,no,no,no,,,no,no,not specified,supply chain; government/public sector; IoT/edge
+ST-0352,2025,D,no,no,no,,,no,no,not specified,finance/banking; IoT/edge
+ST-0363,2025,C,no,no,no,,,no,no,Hyperledger Fabric,healthcare; IoT/edge
+ST-0364,2025,A,yes,no,no,signals found: code available,scalability; administration; scalable; complexity; Scalability; overhead,yes,yes,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0366,2025,C,no,no,no,,,no,no,Ethereum,healthcare
+ST-0367,2025,A,no,no,no,,,no,no,Ethereum,healthcare; supply chain; government/public sector; identity
+ST-0372,2024,C,no,no,no,,,no,no,not specified,supply chain; government/public sector
+ST-0373,2024,B,yes,no,no,signals found: code available,scalability; scalable; Scalability; maintenance; Administration; Complexity,yes,yes,Hyperledger Fabric; Corda; Ethereum; IOTA; Bitcoin; Multichain,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0374,2024,C,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0375,2024,D,no,no,no,,,no,no,not specified,healthcare; identity; IoT/edge
+ST-0377,2024,C,no,no,no,,,no,no,not specified,supply chain; IoT/edge
+ST-0381,2024,B,no,no,no,no reproducibility signals in full text,overhead; complexity,yes,yes,not specified,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS
+ST-0388,2024,B,no,no,no,no reproducibility signals in full text,maintenance; scalability; overhead; complexity,yes,yes,Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI
+ST-0390,2024,B,yes,no,no,signals found: code available,scalability; complexity; administration,yes,yes,Hyperledger Fabric; Corda; Ethereum; Polkadot/Substrate; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education
+ST-0393,2024,B,no,no,no,,,no,no,Ethereum,healthcare
+ST-0398,2024,B,no,no,no,no reproducibility signals in full text,complexity; scalability; scalable; Scalability; maintenance,yes,yes,Quorum; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education
+ST-0403,2024,B,no,no,no,no reproducibility signals in full text,scalability; administration; Scalability,no,yes,Bitcoin,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education
+ST-0405,2024,C,no,no,no,,,no,no,not specified,supply chain; IoT/edge
+ST-0408,2024,B,no,no,yes,signals found: config available,overhead; scalability; maintenance; scalable; complexity; administration,yes,yes,Ethereum,healthcare; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS
+ST-0409,2024,B,yes,no,no,signals found: code available,administration; scalability; scalable; Administration; complexity; Scalability,no,yes,Hyperledger Fabric; Corda; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; agriculture
+ST-0413,2024,B,no,no,no,no reproducibility signals in full text,scalability; complexity; scalable,yes,yes,Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education; agriculture
+ST-0419,2024,B,no,yes,no,signals found: data available,scalability; Scalability,yes,yes,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0424,2024,C,no,no,no,,,no,no,not specified,IoT/edge
+ST-0426,2024,D,no,no,no,,,no,no,not specified,healthcare
+ST-0427,2024,A,yes,yes,yes,signals found: code available; data available; config available,scalability; Scalability; Scalable,yes,yes,Hyperledger Fabric; Hyperledger Besu; Ethereum; IOTA; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS
+ST-0428,2024,C,no,no,no,,,no,no,not specified,energy/utilities
+ST-0429,2024,B,yes,yes,no,signals found: code available; data available,overhead; maintenance; scalability; complexity; Scalability; scalable,yes,yes,Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture
+ST-0431,2024,C,no,no,no,,,no,no,not specified,government/public sector; IoT/edge
+ST-0432,2024,B,no,no,no,no reproducibility signals in full text,scalability; Scalable; Maintenance; Administration,yes,no,Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0433,2024,B,no,no,no,no reproducibility signals in full text,scalability; complexity; Scalability; scalable,yes,yes,Ethereum; Ripple/XRP; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; agriculture
+ST-0434,2024,B,no,no,no,no reproducibility signals in full text,scalability; overhead; Scalable,yes,yes,not specified,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; IoT/edge/CPS; education; transportation/mobility
+ST-0436,2024,B,yes,no,no,signals found: code available,complexity; Scalability; scalability; Administration,no,yes,Hyperledger Besu; Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education; transportation/mobility
+ST-0437,2024,C,no,no,no,,,no,no,not specified,IoT/edge
+ST-0446,2024,B,no,no,no,no reproducibility signals in full text,scalability; scalable; complexity; Scalable,yes,yes,Ethereum; Polkadot/Substrate; Cosmos/Tendermint; Bitcoin; Multichain,finance/banking; supply chain; government/public sector; identity/PKI; transportation/mobility
+ST-0451,2024,B,no,no,no,no reproducibility signals in full text,complexity; overhead; scalability,yes,yes,Hyperledger Fabric,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; agriculture
+ST-0452,2024,C,no,no,no,,,no,no,not specified,finance/banking; IoT/edge
+ST-0456,2024,D,no,no,no,,,no,no,not specified,unclassified
+ST-0458,2024,C,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0459,2024,B,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0460,2023,B,no,no,no,,,no,no,not specified,healthcare; government/public sector; energy/utilities; IoT/edge
+ST-0461,2023,C,no,no,no,,,no,no,not specified,government/public sector; energy/utilities
+ST-0463,2023,C,no,no,no,,,no,no,not specified,finance/banking; government/public sector
+ST-0466,2023,C,no,no,no,,,no,no,not specified,government/public sector; IoT/edge
+ST-0468,2023,C,no,no,no,,,no,no,not specified,healthcare
+ST-0470,2023,B,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0471,2023,C,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0473,2023,B,no,no,no,no reproducibility signals in full text,scalability; complexity; Scalability; overhead; scalable,yes,yes,Bitcoin,finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI
+ST-0475,2023,C,no,no,no,,,no,no,not specified,unclassified
+ST-0484,2023,C,no,no,no,,,no,no,not specified,supply chain; energy/utilities
+ST-0487,2023,C,no,no,no,,,no,no,not specified,IoT/edge
+ST-0492,2023,C,no,no,no,,,no,no,Ethereum,unclassified
+ST-0496,2023,C,no,no,no,,,no,no,Hyperledger Besu; Ethereum,IoT/edge
+ST-0498,2023,D,no,no,no,,,no,no,not specified,IoT/edge
+ST-0499,2023,B,no,yes,no,signals found: data available,scalability; scalable; Scalability,yes,yes,Hyperledger Fabric; Hyperledger Sawtooth; Hyperledger Iroha; Ethereum; Polkadot/Substrate; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; education; transportation/mobility
+ST-0502,2023,B,no,no,no,,,no,no,Ethereum,healthcare; supply chain; IoT/edge
+ST-0503,2023,C,no,no,no,,,no,no,not specified,supply chain; government/public sector; identity; IoT/edge; education
+ST-0505,2023,C,no,no,no,,,no,no,not specified,unclassified
+ST-0506,2023,B,no,no,no,,,no,no,not specified,unclassified
+ST-0515,2023,C,no,no,no,,,no,no,not specified,supply chain
+ST-0521,2023,B,yes,no,yes,signals found: code available; config available,Maintenance; maintenance,yes,yes,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; IoT/edge/CPS; education; transportation/mobility; agriculture
+ST-0525,2023,C,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0527,2023,C,no,no,no,,,no,no,not specified,unclassified
+ST-0530,2023,C,no,no,no,,,no,no,not specified,healthcare; finance/banking; supply chain; energy/utilities; IoT/edge
+ST-0531,2023,C,no,no,no,,,no,no,not specified,supply chain
+ST-0537,2023,B,no,no,no,,,no,no,Hyperledger Fabric,IoT/edge
+ST-0539,2023,D,no,no,no,,,no,no,not specified,IoT/edge
+ST-0544,2023,C,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0545,2023,B,no,no,no,,,no,no,Corda; Ethereum,finance/banking; energy/utilities; IoT/edge
+ST-0548,2023,C,no,no,no,,,no,no,Hyperledger Fabric,IoT/edge; education
+ST-0553,2023,B,no,no,no,no reproducibility signals in full text,scalable; complexity; scalability; maintenance,yes,yes,not specified,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education
+ST-0554,2023,D,no,no,no,,,no,no,not specified,healthcare
+ST-0556,2023,C,no,no,no,,,no,no,not specified,unclassified
+ST-0557,2023,D,no,no,no,,,no,no,not specified,unclassified
+ST-0565,2023,C,no,no,no,,,no,no,not specified,unclassified
+ST-0566,2023,A,no,no,yes,signals found: config available,complexity,yes,yes,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS
+ST-0568,2023,C,no,no,no,,,no,no,not specified,unclassified
+ST-0569,2023,B,no,no,no,no reproducibility signals in full text,,no,no,Ethereum,education
+ST-0577,2023,D,no,no,no,,,no,no,not specified,healthcare; supply chain
+ST-0579,2022,C,no,no,no,,,no,no,not specified,healthcare; government/public sector; education
+ST-0580,2022,C,no,no,no,,,no,no,not specified,government/public sector
+ST-0582,2022,A,yes,no,yes,signals found: code available; config available,maintenance; scalability; Scalable; scalable,yes,yes,Hyperledger Fabric; Corda; Ethereum; IOTA; Ripple/XRP; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS
+ST-0586,2022,C,no,no,no,,,no,no,not specified,supply chain; government/public sector; IoT/edge
+ST-0587,2022,C,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0588,2022,D,no,no,no,,,no,no,not specified,healthcare; supply chain; government/public sector; education
+ST-0596,2022,B,no,no,no,no reproducibility signals in full text,scalability; complexity; overhead; scalable,yes,yes,Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture
+ST-0598,2022,B,no,no,no,no reproducibility signals in full text,maintenance; scalable; scalability; overhead; Scalability,yes,yes,Quorum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; IoT/edge/CPS; education; transportation/mobility
+ST-0612,2022,B,no,no,no,,,no,no,not specified,healthcare; education
+ST-0613,2022,A,yes,no,no,signals found: code available,scalable; maintenance; scalability; complexity,yes,yes,Hyperledger Fabric; Hyperledger Sawtooth; Hyperledger Iroha; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0615,2022,A,no,no,yes,signals found: config available,maintenance; scalability,yes,yes,Hyperledger Fabric; Hyperledger Sawtooth; Ethereum; Bitcoin,healthcare; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture
+ST-0617,2022,C,no,no,no,,,no,no,not specified,healthcare; finance/banking; government/public sector
+ST-0623,2022,C,no,no,no,,,no,no,not specified,healthcare
+ST-0628,2022,B,no,no,no,no reproducibility signals in full text,scalability; complexity; overhead; scalable; maintenance,no,yes,not specified,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; IoT/edge/CPS; agriculture
+ST-0633,2022,B,no,no,no,,,no,no,not specified,healthcare; identity; education
+ST-0636,2022,C,no,no,no,,,no,no,not specified,healthcare
+ST-0642,2022,A,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0646,2022,C,no,no,no,,,no,no,Hyperledger Fabric,healthcare; IoT/edge
+ST-0653,2022,B,yes,no,yes,signals found: code available; config available,overhead; scalability; maintenance,yes,yes,Hyperledger Fabric; Ethereum; Cosmos/Tendermint; IOTA,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility
+ST-0654,2022,B,no,no,no,no reproducibility signals in full text,scalability; scalable; Administration,yes,yes,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; transportation/mobility
+ST-0666,2022,C,no,no,no,,,no,no,not specified,finance/banking; supply chain; IoT/edge
+ST-0667,2022,C,no,no,no,,,no,no,Hyperledger Fabric,IoT/edge
+ST-0668,2022,C,no,no,no,,,no,no,Hyperledger Fabric; Hyperledger Sawtooth,IoT/edge
+ST-0673,2022,C,no,no,no,,,no,no,not specified,healthcare; supply chain; IoT/edge
+ST-0675,2022,C,no,no,no,,,no,no,Hyperledger Fabric,supply chain; IoT/edge
+ST-0676,2022,C,no,no,no,,,no,no,not specified,energy/utilities; IoT/edge
+ST-0678,2022,C,no,no,no,,,no,no,not specified,unclassified
+ST-0679,2022,B,no,no,no,no reproducibility signals in full text,complexity; maintenance; overhead; Overhead,yes,yes,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture
+ST-0693,2022,C,no,no,no,,,no,no,not specified,energy/utilities; IoT/edge
+ST-0698,2022,B,no,no,no,no reproducibility signals in full text,scalability; maintenance; complexity,yes,yes,Quorum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0699,2022,B,no,no,no,no reproducibility signals in full text,complexity; Complexity; Scalable,yes,no,not specified,healthcare; finance/banking; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0701,2022,C,no,no,no,,,no,no,not specified,IoT/edge
+ST-0702,2022,D,no,no,no,,,no,no,not specified,IoT/edge
+ST-0704,2022,C,no,no,no,,,no,no,Hyperledger Fabric,IoT/edge
+ST-0705,2022,D,no,no,no,,,no,no,not specified,IoT/edge
+ST-0706,2021,D,no,no,no,,,no,no,not specified,government/public sector
+ST-0711,2021,A,no,no,no,no reproducibility signals in full text,scalability; complexity; Scalability; maintenance; overhead,yes,yes,Hyperledger Fabric; Corda; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education; agriculture
+ST-0713,2021,C,no,no,no,,,no,no,not specified,government/public sector; energy/utilities; identity; IoT/edge
+ST-0715,2021,D,no,no,no,,,no,no,not specified,IoT/edge
+ST-0720,2021,B,yes,no,no,signals found: code available,administration; scalability; scalable,yes,no,Ethereum; Bitcoin,finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education
+ST-0725,2021,B,yes,no,no,signals found: code available,scalability; complexity,yes,yes,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education
+ST-0728,2021,B,no,no,no,no reproducibility signals in full text,scalability; scalable,yes,yes,Hyperledger Fabric; Corda; Ethereum; Stellar; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0732,2021,B,no,no,no,,,no,no,not specified,supply chain; IoT/edge
+ST-0733,2021,B,no,no,no,,,no,no,Ethereum,healthcare
+ST-0736,2021,C,no,no,no,,,no,no,not specified,energy/utilities; IoT/edge
+ST-0750,2021,B,no,no,no,,,no,no,Ethereum,healthcare; finance/banking; energy/utilities; IoT/edge; education
+ST-0751,2021,D,no,no,no,,,no,no,not specified,supply chain
+ST-0753,2021,B,no,no,no,no reproducibility signals in full text,scalable; scalability,yes,yes,Ethereum,healthcare; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility
+ST-0755,2021,B,no,no,no,,,no,no,Hyperledger Fabric,IoT/edge
+ST-0763,2021,D,no,no,no,,,no,no,not specified,healthcare
+ST-0764,2021,C,no,no,no,,,no,no,Hyperledger Fabric,finance/banking; IoT/edge
+ST-0767,2021,C,no,no,no,,,no,no,Ethereum,healthcare; supply chain
+ST-0768,2021,B,no,no,no,no reproducibility signals in full text,complexity; scalability,yes,yes,Hyperledger Fabric; Hyperledger Sawtooth; Corda; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS
+ST-0771,2021,B,no,no,no,,,no,no,not specified,healthcare
+ST-0774,2021,C,no,no,no,,,no,no,not specified,healthcare
+ST-0777,2021,B,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0779,2021,C,no,no,no,,,no,no,not specified,supply chain
+ST-0783,2021,B,no,no,no,,,no,no,not specified,supply chain; IoT/edge
+ST-0786,2021,C,no,no,no,,,no,no,not specified,IoT/edge
+ST-0787,2021,B,no,no,no,,,no,no,not specified,healthcare; finance/banking; supply chain; IoT/edge
+ST-0789,2021,B,no,no,no,no reproducibility signals in full text,,no,no,not specified,healthcare; government/public sector; education
+ST-0790,2021,C,no,no,no,,,no,no,not specified,healthcare; finance/banking; supply chain; energy/utilities
+ST-0792,2021,C,no,no,no,,,no,no,not specified,healthcare
+ST-0793,2021,C,no,no,no,,,no,no,not specified,healthcare; IoT/edge
+ST-0794,2021,A,yes,no,no,signals found: code available,scalability; maintenance; complexity; Scalable,yes,yes,Hyperledger Fabric; Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education
+ST-0795,2021,C,no,no,no,,,no,no,Hyperledger Fabric,supply chain; IoT/edge
+ST-0796,2021,B,yes,no,no,signals found: code available,"scalability; scalabil; scalable; complexity; deployment
+cost",yes,yes,Hyperledger Fabric; Hyperledger Besu; Quorum; Ethereum; Polkadot/Substrate; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; education
+ST-0797,2021,B,yes,no,yes,signals found: code available; config available,administration; scalability; scalabil; SCALABILITY; Scalability; complexity,yes,yes,Hyperledger Fabric; Hyperledger Besu; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education
+ST-0798,2021,B,no,no,no,no reproducibility signals in full text,maintenance; overhead,yes,yes,Hyperledger Fabric; Ethereum; Bitcoin,finance/banking; supply chain; government/public sector; IoT/edge/CPS
+ST-0801,2021,C,no,no,no,,,no,no,not specified,unclassified
+ST-0804,2021,B,no,no,no,,,no,no,Hyperledger Fabric,healthcare; supply chain; IoT/edge
+ST-0811,2021,A,no,no,no,,,no,no,not specified,supply chain; government/public sector; identity; IoT/edge
+ST-0813,2021,C,no,no,no,,,no,no,not specified,supply chain; government/public sector
+ST-0814,2021,B,yes,no,no,signals found: code available,scalability; Scalability; complexity; Scalable,yes,yes,Hyperledger Fabric; Quorum; Ethereum; IOTA; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; IoT/edge/CPS; education; transportation/mobility
+ST-0815,2021,C,no,no,no,,,no,no,not specified,healthcare; government/public sector
+ST-0816,2021,C,no,no,no,,,no,no,not specified,healthcare; finance/banking; supply chain; government/public sector; IoT/edge
+ST-0818,2021,C,no,no,no,,,no,no,Ethereum,healthcare; IoT/edge
+ST-0822,2021,B,yes,no,no,signals found: code available,,yes,no,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education
+ST-0827,2021,C,no,no,no,,,no,no,not specified,unclassified
+ST-0838,2021,C,no,no,no,,,no,no,not specified,identity; IoT/edge
+ST-0842,2024,A,no,no,no,no reproducibility signals in full text,overhead; Scalability; scalability,yes,no,Ethereum; Bitcoin,finance/banking; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0846,2021,B,no,no,no,no reproducibility signals in full text,scalability,yes,yes,Hyperledger Fabric,healthcare
+ST-0847,2025,B,no,no,no,no reproducibility signals in full text,scalable; scalability; complexity; overhead; Overhead,yes,yes,Hyperledger Fabric,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; agriculture
+ST-0849,2025,B,no,no,no,no reproducibility signals in full text,overhead; scalable; complexity; scalabil; scalability; Scalable,no,yes,Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0850,2025,B,no,no,no,no reproducibility signals in full text,maintenance; complexity; overhead; scalability,yes,yes,Hyperledger Fabric; Bitcoin,finance/banking; supply chain; government/public sector; identity/PKI; education
+ST-0853,2022,B,no,no,no,no reproducibility signals in full text,maintenance,no,no,not specified,healthcare; identity/PKI; IoT/edge/CPS; education; transportation/mobility
+ST-0856,2023,B,yes,yes,no,signals found: code available; data available,scalability; overhead; complexity; Scalability; scalable,yes,yes,Hyperledger Fabric; Quorum; Ethereum; Bitcoin,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; education
+ST-0859,2023,B,yes,no,no,signals found: code available,scalable; complexity,no,no,Quorum; Ethereum,healthcare; finance/banking; government/public sector
+ST-0860,2026,A,no,no,no,no reproducibility signals in full text,scalability; Complexity; complexity; overhead; Scalability; scalable,yes,yes,Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education
+ST-0862,2025,A,no,no,no,no reproducibility signals in full text,complexity; scalability; Scalability,no,yes,Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education; agriculture
+ST-0863,2022,A,no,no,no,,,no,no,Ethereum,healthcare

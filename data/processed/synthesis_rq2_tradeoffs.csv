@@ -1,0 +1,280 @@
+study_id,year,tier,platform_stack,domain,metrics_reported,throughput,latency,fault_tolerance,privacy_overhead,evaluation_setup,workload_description,has_throughput,has_latency,has_fault_tolerance
+ST-0001,2026,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0002,2026,B,Hyperledger Fabric; Polkadot/Substrate; Bitcoin,finance/banking; supply chain; government/public sector; identity/PKI; education,latency; fault_tolerance,,100 ms; 500 ms; 100 ms,es. We assume adversaries can compromise up to 33% of validator nodes (standard Byzantine threshold). Compromised servers can inspect submitted data but cannot directly,,simulation; prototype; Raspberry Pi / edge hardware; formal verification,,no,yes,yes
+ST-0003,2026,C,not specified,supply chain; energy/utilities; identity; education,,,,,,,,no,no,no
+ST-0004,2026,B,Hyperledger Fabric,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,throughput; latency; fault_tolerance,,180 ms,ledger that is run in surface gateways and  a few validators through Practical Byzantine Fault Tolerance (PBFT). Due to the nature of  consortium consensus which contro,,simulation; prototype,,no,yes,yes
+ST-0005,2026,C,not specified,supply chain,,,,,,,,no,no,no
+ST-0006,2025,B,Hyperledger Fabric; Bitcoin,healthcare; supply chain; energy/utilities; identity/PKI; education,throughput; latency,,,,,Hyperledger Caliper; Docker/Kubernetes,custom benchmark,no,no,no
+ST-0007,2025,B,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI,throughput; latency; fault_tolerance,,,"ed nodes within the network. Examples of such methods include PoS and Practical Byzantine Fault Tolerance (PBFT). With these methods, consensus is typically achieved by",,simulation; prototype; Docker/Kubernetes,,no,no,yes
+ST-0008,2025,C,Cosmos,unclassified,,,,,,,,no,no,no
+ST-0009,2025,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0010,2025,B,not specified,supply chain,,,,,,,,no,no,no
+ST-0011,2025,B,Hyperledger Fabric; Hyperledger Besu; Ethereum,finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility,throughput; latency,50; 30; 27.8 TPS,60 ms; 100 ms; 580 ms,,,Hyperledger Caliper; simulation; Docker/Kubernetes,custom benchmark,yes,yes,no
+ST-0012,2025,C,Hyperledger Fabric,IoT/edge,,,,,,,,no,no,no
+ST-0013,2024,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0014,2024,D,not specified,unclassified,,,,,,,,no,no,no
+ST-0015,2024,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0016,2024,C,Hyperledger Fabric,IoT/edge,,,,,,,,no,no,no
+ST-0017,2024,C,not specified,government/public sector; IoT/edge,,,,,,,,no,no,no
+ST-0018,2024,A,Hyperledger Fabric; Hyperledger Besu; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility,throughput; latency,60 TPS,,,,Hyperledger Caliper; simulation; prototype,custom benchmark; real-world dataset,yes,no,no
+ST-0019,2024,B,Hyperledger Fabric; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility,throughput; latency,,,,,testbed; Docker/Kubernetes,,no,no,no
+ST-0020,2023,B,Hyperledger Fabric; Bitcoin,IoT/edge/CPS,latency; fault_tolerance,,,"[10] M. Fang, X. Cao, J. Jia, and N. Gong, “Local model poisoning at- tacks to {Byzantine-Robust} federated learning,” in 29th USENIX Security Symposium (USENIX Security",,simulation; cloud deployment; Raspberry Pi / edge hardware,custom benchmark,no,no,yes
+ST-0021,2023,C,not specified,IoT/edge; education,,,,,,,,no,no,no
+ST-0022,2023,B,Hyperledger Fabric; Ethereum; Bitcoin,supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,throughput; fault_tolerance,,,"me  of Bitcoin’s limitations. Additionally, BlockZone’s [47] improved Practical Byzantine Fault Tolerance (PBFT) [48]  consensus mechanism provides more efficient name r",,simulation; testbed; cloud deployment,custom benchmark,no,no,yes
+ST-0023,2023,C,Hyperledger Besu,healthcare; finance/banking; supply chain; IoT/edge; education,,,,,,,,no,no,no
+ST-0024,2023,C,not specified,healthcare; finance/banking,,,,,,,,no,no,no
+ST-0025,2023,B,Hyperledger Fabric; Ethereum,healthcare; finance/banking; government/public sector; identity/PKI; education,throughput; latency; fault_tolerance,,1000 ms; 11425 ms,"nts, credential schemas and credential definitions. Indy Plenum is an Redundant Byzantine Fault Tolerant (RBFT) based consensus protocol that Indy Node uses to reach con",,simulation; prototype; cloud deployment; Docker/Kubernetes,,no,yes,yes
+ST-0026,2022,C,Hyperledger Fabric,supply chain; IoT/edge,,,,,,,,no,no,no
+ST-0027,2022,B,Hyperledger Fabric; Ethereum; IOTA; Bitcoin,healthcare; finance/banking; supply chain; energy/utilities; identity/PKI; IoT/edge/CPS,throughput; latency; fault_tolerance,100; 25 TPS,30 ms,and semi-trusted. Less resource-demanding consensus protocols such as Practical Byzantine Fault Tolerance (PBFT) [14] and Raft [30] can be utilized in consortium blockch,,Hyperledger Caliper; simulation; testbed; prototype; cloud deployment; Raspberry Pi / edge hardware; Docker/Kubernetes,custom benchmark; synthetic dataset,yes,yes,yes
+ST-0028,2022,D,not specified,unclassified,,,,,,,,no,no,no
+ST-0029,2022,B,Hyperledger Iroha; Ethereum,finance/banking; government/public sector; identity/PKI; education,privacy_overhead,,0.0169 ms; 0.0353 ms; 0.0748 ms,,"8 algorithm, and the Secp256k1 elliptic curve. In order to balance security and computational cost, the n1 and n2 which is the number of SSs and RAs 15 respectively are set to 5",simulation,,no,yes,no
+ST-0030,2022,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0031,2022,B,Hyperledger Fabric; Quorum; Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility,throughput; latency; fault_tolerance,3 TPS,30 seconds; 16 seconds,thod designed to counter ad- versarial updates in a FL setting. Multi-Krum is a byzantine-resilient defence strategy that selects 𝑛 vectors furthest from the calculated,,Hyperledger Caliper; simulation; prototype; formal verification,custom benchmark,yes,yes,yes
+ST-0032,2022,C,Hyperledger Fabric; Corda,IoT/edge,,,,,,,,no,no,no
+ST-0033,2021,D,not specified,unclassified,,,,,,,,no,no,no
+ST-0034,2021,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0035,2021,C,not specified,finance/banking; IoT/edge,,,,,,,,no,no,no
+ST-0036,2021,C,not specified,healthcare,,,,,,,,no,no,no
+ST-0037,2021,B,Hyperledger Fabric; Quorum; Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,throughput; latency; privacy_overhead,10; 300; 160 TPS,1.35 seconds; 161.31 ms; 939.50 ms,,ain. The low frequency key-word is selected for data ﬁltration which limits the computational cost by returning small number of results. The authors have also proposed the use of,Hyperledger Caliper; simulation; prototype,custom benchmark,yes,yes,no
+ST-0038,2021,B,Hyperledger Fabric; Quorum; Ethereum; Bitcoin,finance/banking; identity/PKI,throughput; latency; fault_tolerance,100 TPS,35 seconds; 72 seconds,"lts, to ensure consistency and liveness for both child chains despite crash- or Byzantine failures, thereby enabling to bootstrap trust from the parent chain to its chil",,Docker/Kubernetes,,yes,yes,yes
+ST-0039,2021,C,Hyperledger Fabric,finance/banking; supply chain; identity; IoT/edge; education,,,,,,,,no,no,no
+ST-0040,2021,C,Hyperledger Fabric; Hyperledger Besu; Ethereum,IoT/edge,,,,,,,,no,no,no
+ST-0041,2021,B,Hyperledger Fabric; Quorum; Ethereum; Cosmos/Tendermint,supply chain; government/public sector; identity/PKI; IoT/edge/CPS,throughput; fault_tolerance,786.6; 751.8; 500 TPS,250.98 seconds; 232.29 seconds; 154.64 seconds,"zation. The consensus algorithm of Hyperledger Fabric is con- ﬁned in the Crash Fault Tolerant (CFT) ordering service, aimed at fast ﬁnality, based on theRAFT consensus proto",,prototype; cloud deployment; Docker/Kubernetes,custom benchmark,yes,yes,yes
+ST-0042,2021,C,Hyperledger Fabric,IoT/edge,,,,,,,,no,no,no
+ST-0043,2021,B,Hyperledger Fabric; Corda; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,throughput; latency; fault_tolerance,,,"roposed 4 Table 1: Comparison between ICON, AION and Wanchain IFPs.(*LFT - Loop Fault Tolerance, PoW - Proof of Work, DPoS - Delegated Proof of Stake, PoI - Proof of Identity,",,simulation; prototype,custom benchmark,no,no,yes
+ST-0044,2021,B,Hyperledger Fabric; Corda; Ethereum; Bitcoin,finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI,latency; fault_tolerance,,50 ms; 400 ms; 50 ms,"such interfacing. First, the businesses, as well as the consumers, can exhibit byzantine behavior in the absence of a ﬁrm-controlled market- place. Therefore they can c",,simulation; testbed; prototype; Docker/Kubernetes,custom benchmark,no,yes,yes
+ST-0045,2025,B,not specified,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; IoT/edge/CPS; education; transportation/mobility,throughput; latency,,1 ms; 1 ms; 0.3 ms,,,simulation; Docker/Kubernetes,,no,yes,no
+ST-0053,2025,B,Hyperledger Fabric; Ethereum; Cosmos/Tendermint; Ripple/XRP; Stellar; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,throughput; latency; fault_tolerance,7; 4 TPS,17 seconds,"w to reach consensus among the untrustwor- thy nodes is a transformation of the Byzantine Generals (BG) Problem [47]. In the BG problem, a group of generals who command",,prototype,,yes,yes,yes
+ST-0055,2024,B,not specified,healthcare,,,,,,,,no,no,no
+ST-0060,2026,B,not specified,supply chain; identity,,,,,,,,no,no,no
+ST-0067,2025,A,not specified,supply chain,,,,,,,,no,no,no
+ST-0071,2024,C,not specified,healthcare,,,,,,,,no,no,no
+ST-0075,2025,A,not specified,government/public sector; energy/utilities; identity; IoT/edge; education,,,,,,,,no,no,no
+ST-0083,2024,A,Ethereum,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0084,2021,B,not specified,finance/banking; supply chain,,,,,,,,no,no,no
+ST-0088,2025,B,not specified,healthcare,,,,,,,,no,no,no
+ST-0095,2024,B,Hyperledger Fabric,education,latency,,,,,,,no,no,no
+ST-0097,2023,B,not specified,government/public sector,,,,,,,,no,no,no
+ST-0098,2026,A,not specified,government/public sector; IoT/edge,,,,,,,,no,no,no
+ST-0099,2022,C,not specified,IoT/edge; education,,,,,,,,no,no,no
+ST-0113,2025,B,not specified,supply chain; government/public sector; education,,,,,,,,no,no,no
+ST-0125,2023,B,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0128,2021,B,not specified,healthcare; finance/banking,,,,,,,,no,no,no
+ST-0147,2024,C,not specified,healthcare; supply chain; IoT/edge,,,,,,,,no,no,no
+ST-0163,2023,C,not specified,healthcare; education,,,,,,,,no,no,no
+ST-0164,2024,B,Hyperledger Fabric; Ethereum; Ripple/XRP; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; education,throughput; latency,400; 50; 400 TPS,,,,Hyperledger Caliper; simulation; testbed; prototype,custom benchmark,yes,no,no
+ST-0169,2021,C,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0171,2025,B,Hyperledger Fabric,IoT/edge; education,,,,,,,,no,no,no
+ST-0172,2025,C,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0175,2025,B,not specified,healthcare; finance/banking; supply chain,,,,,,,,no,no,no
+ST-0182,2022,A,Hyperledger Fabric; Hyperledger Besu; Hyperledger Sawtooth; Hyperledger Iroha; Ethereum,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; transportation/mobility,throughput; latency,50; 25; 100 TPS,1 second; 1 second; 1 second,,,Hyperledger Caliper; simulation; testbed; prototype; cloud deployment,custom benchmark,yes,yes,no
+ST-0197,2025,B,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0203,2025,B,Hyperledger Fabric,IoT/edge; education,,,,,,,,no,no,no
+ST-0224,2023,C,not specified,healthcare,,,,,,,,no,no,no
+ST-0227,2025,B,not specified,supply chain; government/public sector; IoT/edge,,,,,,,,no,no,no
+ST-0250,2024,B,not specified,identity; education,,,,,,,,no,no,no
+ST-0267,2023,B,not specified,finance/banking; supply chain; government/public sector; IoT/edge,,,,,,,,no,no,no
+ST-0270,2025,A,Ethereum,finance/banking; supply chain; government/public sector,,,,,,,,no,no,no
+ST-0277,2023,B,not specified,government/public sector; education,,,,,,,,no,no,no
+ST-0282,2024,B,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0283,2025,B,not specified,healthcare; identity,,,,,,,,no,no,no
+ST-0289,2022,C,not specified,healthcare,,,,,,,,no,no,no
+ST-0290,2021,B,not specified,supply chain,,,,,,,,no,no,no
+ST-0296,2026,C,not specified,government/public sector,,,,,,,,no,no,no
+ST-0297,2026,B,not specified,supply chain; government/public sector,,,,,,,,no,no,no
+ST-0299,2026,B,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,throughput; latency; fault_tolerance,1000 TPS,,"t contracts, consensus mechanisms (Proof  of Work, Proof of Stake, or Practical Byzantine Fault Tolerance), and cryp tographic algorithms that collectively ensure  trust",,Hyperledger Caliper,custom benchmark,yes,no,yes
+ST-0300,2025,B,Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility,throughput; latency; fault_tolerance; privacy_overhead,,,"EC and efficient consensus mechanism of  Hyperledger, such as Advanced Practice Byzantine Fault Tolerance (APBFT), to enable scalability for exten- sive IoMT deployments",verifying stakeholder’s information validation and authentication Requires more computational  cost Barman et  al.23 Key-agreement authentication verification over Ethereum  netwo,simulation; Raspberry Pi / edge hardware; Docker/Kubernetes,,no,no,yes
+ST-0305,2025,B,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,,,,,,simulation,,no,no,no
+ST-0308,2025,A,not specified,government/public sector,,,,,,,,no,no,no
+ST-0310,2025,B,Ethereum,healthcare; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,latency; fault_tolerance,,150 ms; 200 ms; 1.98 ms,"3, allowing any fog  node to satisfy the IoT device’s request in the event of a node failure.  11. The IoT edge device will securely communicate with other edge devices in",,simulation; testbed; Raspberry Pi / edge hardware,,no,yes,yes
+ST-0315,2025,B,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0316,2025,B,not specified,healthcare; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,throughput; latency,,0.42 seconds,,,,,no,yes,no
+ST-0317,2025,C,not specified,identity; IoT/edge; education,,,,,,,,no,no,no
+ST-0318,2025,B,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; agriculture,latency; fault_tolerance,,,"oof of Work (PoW):  Used in Bitcoin, but computationally expensive. – Practical Byzantine Fault Tolerance (PBFT):  Used in Hyperledger Fabric for faster and more energy-",,Docker/Kubernetes; formal verification,real-world dataset,no,no,yes
+ST-0319,2025,A,Ethereum,healthcare; supply chain; government/public sector; identity/PKI; IoT/edge/CPS,,,100 ms; 1.7 seconds,,,,,no,yes,no
+ST-0321,2025,C,not specified,finance/banking; government/public sector,,,,,,,,no,no,no
+ST-0325,2025,C,not specified,supply chain; government/public sector; IoT/edge,,,,,,,,no,no,no
+ST-0326,2025,C,not specified,healthcare,,,,,,,,no,no,no
+ST-0328,2025,C,not specified,healthcare; supply chain; government/public sector; identity; education,,,,,,,,no,no,no
+ST-0329,2025,D,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0330,2025,B,Hyperledger Fabric; Quorum; Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,throughput; latency,,,,,simulation; testbed; prototype,,no,no,no
+ST-0333,2025,B,Hyperledger Fabric; Ethereum,finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,throughput; latency; fault_tolerance; privacy_overhead,1700; 80; 118 TPS,200 ms; 120 ms; 200 ms,"gulated securities  settings, unlike FLUID. The hybrid consensus technique uses Byzantine Fault Tolerance (BFT) and Directed  Acyclic Graph (DAG) concepts. PACT optimize","tegrity) PoW/PoS Consensus ~ 30% faster finality and more fault-tolerant (less  computational cost) Authenticity & Non-repudiation zk-SNARKs (Non-repudiation, proof of soundness)",simulation,custom benchmark,yes,yes,yes
+ST-0336,2025,B,Hyperledger Fabric,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,throughput; latency,74; 74; 52 TPS,3.2 ms; 120 ms; 120 milliseconds,,,simulation,,yes,yes,no
+ST-0337,2025,B,not specified,healthcare; government/public sector; identity,,,,,,,,no,no,no
+ST-0340,2025,A,Hyperledger Fabric,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education,privacy_overhead,,,,le layers of internally nested C3k (containing 2 Bottleneck)  leads to a higher computational cost and number of parameters. To further optimise the efficiency of the header netw,simulation,custom benchmark,no,no,no
+ST-0342,2025,C,not specified,identity; IoT/edge,,,,,,,,no,no,no
+ST-0343,2025,D,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0345,2025,C,not specified,government/public sector; IoT/edge,,,,,,,,no,no,no
+ST-0347,2025,B,not specified,finance/banking; identity; education,,,,,,,,no,no,no
+ST-0348,2025,C,not specified,finance/banking; government/public sector; identity; IoT/edge,,,,,,,,no,no,no
+ST-0349,2025,B,not specified,supply chain; government/public sector; IoT/edge,,,,,,,,no,no,no
+ST-0350,2025,A,Hyperledger Fabric; Corda,finance/banking; government/public sector,,,,,,,,no,no,no
+ST-0351,2025,C,not specified,supply chain; government/public sector; IoT/edge,,,,,,,,no,no,no
+ST-0352,2025,D,not specified,finance/banking; IoT/edge,,,,,,,,no,no,no
+ST-0363,2025,C,Hyperledger Fabric,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0364,2025,A,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,throughput; latency,280; 220; 165 TPS,25 ms; 306.5 ms; 430 ms,,,simulation,,yes,yes,no
+ST-0366,2025,C,Ethereum,healthcare,,,,,,,,no,no,no
+ST-0367,2025,A,Ethereum,healthcare; supply chain; government/public sector; identity,,,,,,,,no,no,no
+ST-0372,2024,C,not specified,supply chain; government/public sector,,,,,,,,no,no,no
+ST-0373,2024,B,Hyperledger Fabric; Corda; Ethereum; IOTA; Bitcoin; Multichain,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,throughput; latency; fault_tolerance,,,"oof of work), POS (proof of stake), the hybrid model (POW+POS), PBFT (practical Byzantine fault tolerance), and PoET (proof of elapsed time) ( 25). In public networks li",,prototype; cloud deployment; Raspberry Pi / edge hardware,real-world dataset,no,no,yes
+ST-0374,2024,C,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0375,2024,D,not specified,healthcare; identity; IoT/edge,,,,,,,,no,no,no
+ST-0377,2024,C,not specified,supply chain; IoT/edge,,,,,,,,no,no,no
+ST-0381,2024,B,not specified,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,throughput; fault_tolerance,,,"Wangchun Li1 and Kangting Li2  Abstract  Because of its excellent properties of fault tolerance, efficiency and availability, the practical Byzantine fault tolerance  (PBFT) a",,simulation,,no,no,yes
+ST-0388,2024,B,Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI,throughput,,0.1 seconds; 0.02 seconds,,,simulation,,no,yes,no
+ST-0390,2024,B,Hyperledger Fabric; Corda; Ethereum; Polkadot/Substrate; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education,throughput; latency; fault_tolerance,,,r than anyone with computing power [10]. Proof-of-Authority (PoA) and Practical Byzantine Fault Tolerance (pBFT) are two of the most widely used consensus algorithms for,,testbed; prototype,,no,no,yes
+ST-0393,2024,B,Ethereum,healthcare,,,,,,,,no,no,no
+ST-0398,2024,B,Quorum; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,throughput,,,,,simulation,,no,no,no
+ST-0403,2024,B,Bitcoin,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,throughput; latency,200; 215 TPS,300 ms; 280 ms; 300 ms,,,,custom benchmark,yes,yes,no
+ST-0405,2024,C,not specified,supply chain; IoT/edge,,,,,,,,no,no,no
+ST-0408,2024,B,Ethereum,healthcare; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,latency,,1070.52 milliseconds; 1187.12 milliseconds; 1070.52 ms,,,simulation; cloud deployment; Docker/Kubernetes; formal verification,custom benchmark,no,yes,no
+ST-0409,2024,B,Hyperledger Fabric; Corda; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; agriculture,throughput; latency; fault_tolerance,,,orda surpasses  blockchain in terms of efficiency and scalability by using the  Byzantine Fault Tolerance (BFT) consensus process and  accommodating a greater volume of,,,custom benchmark,no,no,yes
+ST-0413,2024,B,Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education; agriculture,latency,,1 ms; 10 ms; 10 ms,,,simulation,,no,yes,no
+ST-0419,2024,B,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,throughput; latency,,,,,simulation; prototype; cloud deployment; Raspberry Pi / edge hardware,synthetic dataset,no,no,no
+ST-0424,2024,C,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0426,2024,D,not specified,healthcare,,,,,,,,no,no,no
+ST-0427,2024,A,Hyperledger Fabric; Hyperledger Besu; Ethereum; IOTA; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,throughput; latency; fault_tolerance,,400 ms,"cripts) A second-generation spin-off from Bitcoin Hedera Hashgraph Asynchronous Byzantine Fault-Tolerant  (aBFT) consensus Yes Does not use a classic blockchain, but a d",,simulation; Docker/Kubernetes,custom benchmark,no,yes,yes
+ST-0428,2024,C,not specified,energy/utilities,,,,,,,,no,no,no
+ST-0429,2024,B,Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,throughput; fault_tolerance,,,r PoET Proof of Elapsed Time LSFR Linear Feedback Shift Register PBFT Practical Byzantine Fault Tolerance RO Ring-Oscillator WSN Wireless Sensor Networks EPCs Electronic,,prototype; Docker/Kubernetes,,no,no,yes
+ST-0431,2024,C,not specified,government/public sector; IoT/edge,,,,,,,,no,no,no
+ST-0432,2024,B,Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,,,,,,cloud deployment; Raspberry Pi / edge hardware,,no,no,no
+ST-0433,2024,B,Ethereum; Ripple/XRP; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; agriculture,throughput,,,,,Docker/Kubernetes,,no,no,no
+ST-0434,2024,B,not specified,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; IoT/edge/CPS; education; transportation/mobility,fault_tolerance; privacy_overhead,,,"rtium network, with an administrator tasked  with looking into any instances of fault tolerance that may arise during the process- ing cycle. Conversely, as illustrated in Fig","we can handle the issues of data processing, resource man- agement (especially computational cost), and scalability, as shown in Fig.  2; due to  this, we design a function that",simulation,,no,no,yes
+ST-0436,2024,B,Hyperledger Besu; Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education; transportation/mobility,privacy_overhead,,,,"nsumption during the execution of the smart contract operations to evaluate the computational cost of our  solution as shown in Table 1. In this investigation, we compared the ga",,,no,no,no
+ST-0437,2024,C,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0446,2024,B,Ethereum; Polkadot/Substrate; Cosmos/Tendermint; Bitcoin; Multichain,finance/banking; supply chain; government/public sector; identity/PKI; transportation/mobility,throughput; latency; fault_tolerance,7; 100; 10 TPS,,"ocol for permissionless blockchains. Subsequently, Dang et al. [4] improved the Byzantine Fault Tolerance (BFT) consensus protocol to enhance transaction processing capa",,simulation; formal verification,,yes,no,yes
+ST-0451,2024,B,Hyperledger Fabric,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; agriculture,throughput; latency; privacy_overhead,,,,applicability of the framework for other do- mains is yet to be consid- ered. • Computational cost • Communication cost [30] • Proxy Re-encryption smart contracts • Using the blo,simulation; prototype; Raspberry Pi / edge hardware; Docker/Kubernetes,,no,no,no
+ST-0452,2024,C,not specified,finance/banking; IoT/edge,,,,,,,,no,no,no
+ST-0456,2024,D,not specified,unclassified,,,,,,,,no,no,no
+ST-0458,2024,C,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0459,2024,B,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0460,2023,B,not specified,healthcare; government/public sector; energy/utilities; IoT/edge,,,,,,,,no,no,no
+ST-0461,2023,C,not specified,government/public sector; energy/utilities,,,,,,,,no,no,no
+ST-0463,2023,C,not specified,finance/banking; government/public sector,,,,,,,,no,no,no
+ST-0466,2023,C,not specified,government/public sector; IoT/edge,,,,,,,,no,no,no
+ST-0468,2023,C,not specified,healthcare,,,,,,,,no,no,no
+ST-0470,2023,B,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0471,2023,C,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0473,2023,B,Bitcoin,finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI,throughput; fault_tolerance,,,"rmance and security of the blockchain system. At present, the classic Practical Byzantine  Fault Tolerance Algorithm (PBFT), which is mainly used in the consortium chain",,simulation; prototype,,no,no,yes
+ST-0475,2023,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0484,2023,C,not specified,supply chain; energy/utilities,,,,,,,,no,no,no
+ST-0487,2023,C,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0492,2023,C,Ethereum,unclassified,,,,,,,,no,no,no
+ST-0496,2023,C,Hyperledger Besu; Ethereum,IoT/edge,,,,,,,,no,no,no
+ST-0498,2023,D,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0499,2023,B,Hyperledger Fabric; Hyperledger Sawtooth; Hyperledger Iroha; Ethereum; Polkadot/Substrate; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; education; transportation/mobility,throughput; latency,3000; 20000 TPS,,,,Hyperledger Caliper; testbed,,yes,no,no
+ST-0502,2023,B,Ethereum,healthcare; supply chain; IoT/edge,,,,,,,,no,no,no
+ST-0503,2023,C,not specified,supply chain; government/public sector; identity; IoT/edge; education,,,,,,,,no,no,no
+ST-0505,2023,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0506,2023,B,not specified,unclassified,,,,,,,,no,no,no
+ST-0515,2023,C,not specified,supply chain,,,,,,,,no,no,no
+ST-0521,2023,B,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; IoT/edge/CPS; education; transportation/mobility; agriculture,throughput; latency; fault_tolerance,,100 milliseconds; 403 milliseconds; 0 ms,ransparent manner. 32929Multimedia Tools and Applications (2023) 82:32917–32939 Fault Tolerance : One of the advantages of combining Blockchain and IoT is the possibility to a,,Hyperledger Caliper; Docker/Kubernetes,custom benchmark,no,yes,yes
+ST-0525,2023,C,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0527,2023,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0530,2023,C,not specified,healthcare; finance/banking; supply chain; energy/utilities; IoT/edge,,,,,,,,no,no,no
+ST-0531,2023,C,not specified,supply chain,,,,,,,,no,no,no
+ST-0537,2023,B,Hyperledger Fabric,IoT/edge,,,,,,,,no,no,no
+ST-0539,2023,D,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0544,2023,C,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0545,2023,B,Corda; Ethereum,finance/banking; energy/utilities; IoT/edge,,,,,,,,no,no,no
+ST-0548,2023,C,Hyperledger Fabric,IoT/edge; education,,,,,,,,no,no,no
+ST-0553,2023,B,not specified,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education,throughput; latency; fault_tolerance,,,"etwork  performance metrics, including transaction speed, cost  efficiency, and fault tolerance, were applied. The synthesis  also incorporated insights on cross -platform con",,simulation; cloud deployment,custom benchmark,no,no,yes
+ST-0554,2023,D,not specified,healthcare,,,,,,,,no,no,no
+ST-0556,2023,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0557,2023,D,not specified,unclassified,,,,,,,,no,no,no
+ST-0565,2023,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0566,2023,A,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,throughput; latency; fault_tolerance; privacy_overhead,250 TPS,,wer pattern. The Raft consensus algorithm has been implemented to provide Crash Fault Tolerant (CFT) and enhanced understandability in a distributed network. This system has,"ents any attack from taking place. Additionally, it performs better in terms of computational cost, latency, and other performance parameters ( Lavanya & Kavitha, 2022 ). Chellad",Hyperledger Caliper; simulation; Docker/Kubernetes,custom benchmark,yes,no,yes
+ST-0568,2023,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0569,2023,B,Ethereum,education,,,,,,,,no,no,no
+ST-0577,2023,D,not specified,healthcare; supply chain,,,,,,,,no,no,no
+ST-0579,2022,C,not specified,healthcare; government/public sector; education,,,,,,,,no,no,no
+ST-0580,2022,C,not specified,government/public sector,,,,,,,,no,no,no
+ST-0582,2022,A,Hyperledger Fabric; Corda; Ethereum; IOTA; Ripple/XRP; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,throughput; fault_tolerance,,,"nsus mechanisms now [ 15]: Proof of Work (Pow), Proof of Stake (Pos), Practical Byzantine Fault Tolerance (PBFT) and Delegated Proof of Stake (DPOS). Blockchain technolo",,simulation; testbed; Docker/Kubernetes,custom benchmark,no,no,yes
+ST-0586,2022,C,not specified,supply chain; government/public sector; IoT/edge,,,,,,,,no,no,no
+ST-0587,2022,C,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0588,2022,D,not specified,healthcare; supply chain; government/public sector; education,,,,,,,,no,no,no
+ST-0596,2022,B,Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,throughput; fault_tolerance,,1000 ms; 1000 ms; 500 ms,"er nodes use an improved Raft consensus algorithm and inter-layer nodes use the Byzantine Fault Tolerance algorithm. Thirdly, we propose a trust evaluation method to imp",,simulation; prototype,custom benchmark,no,yes,yes
+ST-0598,2022,B,Quorum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; IoT/edge/CPS; education; transportation/mobility,throughput; latency; fault_tolerance,,26.6 ms; 49.3 ms; 135.2 ms,3) download object: IPFS get <CID>. E. Raft Consensus Raft is a family of crash fault tolerance of the consensus algorithm. Raft networks often feature an odd number of nodes,,prototype,,no,yes,yes
+ST-0612,2022,B,not specified,healthcare; education,,,,,,,,no,no,no
+ST-0613,2022,A,Hyperledger Fabric; Hyperledger Sawtooth; Hyperledger Iroha; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,throughput; latency; fault_tolerance,,,"chanism [54] saves more energy and accelerates transactions rates. d: PRACTICAL BYZANTINE FAULT TOLERANCE (PBFT) The practical Byzantine fault tolerance (PBFT), original",,Hyperledger Caliper; prototype; cloud deployment,,no,no,yes
+ST-0615,2022,A,Hyperledger Fabric; Hyperledger Sawtooth; Ethereum; Bitcoin,healthcare; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,throughput; latency; privacy_overhead,,,,"d validation. The experimental results show that the proposed BIoMT reduces the computational cost by 26.13%, and the robust medical node generation increases to 60.37%. Thus, on",simulation; Docker/Kubernetes,custom benchmark,no,no,no
+ST-0617,2022,C,not specified,healthcare; finance/banking; government/public sector,,,,,,,,no,no,no
+ST-0623,2022,C,not specified,healthcare,,,,,,,,no,no,no
+ST-0628,2022,B,not specified,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; IoT/edge/CPS; agriculture,throughput; latency; fault_tolerance,,,creasingly favour alternative consensus  models such as proof -of-authority and Byzantine  fault-tolerant protocols. These approaches reduce  latency and energy consumpt,,,,no,no,yes
+ST-0633,2022,B,not specified,healthcare; identity; education,,,,,,,,no,no,no
+ST-0636,2022,C,not specified,healthcare,,,,,,,,no,no,no
+ST-0642,2022,A,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0646,2022,C,Hyperledger Fabric,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0653,2022,B,Hyperledger Fabric; Ethereum; Cosmos/Tendermint; IOTA,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility,throughput; latency; fault_tolerance,,,"sioned blockchain for  secure charging of electric vehicles. They have utilized Byzantine fault tolerance consensus algorithm. Finally,  they have compared the efficienc",,Hyperledger Caliper; simulation; testbed; prototype; Raspberry Pi / edge hardware; Docker/Kubernetes,,no,no,yes
+ST-0654,2022,B,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; transportation/mobility,throughput; latency; fault_tolerance,2000 TPS,,absent in Hyperledger because the consensus is achieved through PBFT (Practical Byzantine Fault Tolerance) depending on predeﬁned endorsers and trust is anchored by the,,simulation; Raspberry Pi / edge hardware; Docker/Kubernetes,,yes,no,yes
+ST-0666,2022,C,not specified,finance/banking; supply chain; IoT/edge,,,,,,,,no,no,no
+ST-0667,2022,C,Hyperledger Fabric,IoT/edge,,,,,,,,no,no,no
+ST-0668,2022,C,Hyperledger Fabric; Hyperledger Sawtooth,IoT/edge,,,,,,,,no,no,no
+ST-0673,2022,C,not specified,healthcare; supply chain; IoT/edge,,,,,,,,no,no,no
+ST-0675,2022,C,Hyperledger Fabric,supply chain; IoT/edge,,,,,,,,no,no,no
+ST-0676,2022,C,not specified,energy/utilities; IoT/edge,,,,,,,,no,no,no
+ST-0678,2022,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0679,2022,B,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,latency,,,,,simulation,,no,no,no
+ST-0693,2022,C,not specified,energy/utilities; IoT/edge,,,,,,,,no,no,no
+ST-0698,2022,B,Quorum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,throughput; latency,,30 ms,,,Hyperledger Caliper; simulation,,no,yes,no
+ST-0699,2022,B,not specified,healthcare; finance/banking; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility,,,,,,simulation,,no,no,no
+ST-0701,2022,C,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0702,2022,D,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0704,2022,C,Hyperledger Fabric,IoT/edge,,,,,,,,no,no,no
+ST-0705,2022,D,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0706,2021,D,not specified,government/public sector,,,,,,,,no,no,no
+ST-0711,2021,A,Hyperledger Fabric; Corda; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education; agriculture,throughput; latency; fault_tolerance,,,ansaction processing times. Castro and Liskov (1999)  earlier work on practical Byzantine fault tolerance has been  revisited in the context of permissioned regulatory n,,formal verification,,no,no,yes
+ST-0713,2021,C,not specified,government/public sector; energy/utilities; identity; IoT/edge,,,,,,,,no,no,no
+ST-0715,2021,D,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0720,2021,B,Ethereum; Bitcoin,finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education,,,60 seconds; 240 seconds; 360 seconds,,,prototype,,no,yes,no
+ST-0725,2021,B,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,throughput; latency; fault_tolerance,,,"s using different consensus algorithms, such as proof-of- work (PoW), practical Byzantine fault tolerance (PBFT), and RAFT. The blockchain ledger is a distributed ledger",,Hyperledger Caliper,custom benchmark,no,no,yes
+ST-0728,2021,B,Hyperledger Fabric; Corda; Ethereum; Stellar; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,throughput; latency; fault_tolerance,,,"ng PoS consensus, and Ethereum is mov- ing to PoS consensus. HLF uses practical byzantine fault tolerance (PBFT) consensus that tolerates byzantine faults (e.g., malicio",,simulation,,no,no,yes
+ST-0732,2021,B,not specified,supply chain; IoT/edge,,,,,,,,no,no,no
+ST-0733,2021,B,Ethereum,healthcare,,,,,,,,no,no,no
+ST-0736,2021,C,not specified,energy/utilities; IoT/edge,,,,,,,,no,no,no
+ST-0750,2021,B,Ethereum,healthcare; finance/banking; energy/utilities; IoT/edge; education,,,,,,,,no,no,no
+ST-0751,2021,D,not specified,supply chain,,,,,,,,no,no,no
+ST-0753,2021,B,Ethereum,healthcare; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility,throughput; latency,,,,,simulation,,no,no,no
+ST-0755,2021,B,Hyperledger Fabric,IoT/edge,,,,,,,,no,no,no
+ST-0763,2021,D,not specified,healthcare,,,,,,,,no,no,no
+ST-0764,2021,C,Hyperledger Fabric,finance/banking; IoT/edge,,,,,,,,no,no,no
+ST-0767,2021,C,Ethereum,healthcare; supply chain,,,,,,,,no,no,no
+ST-0768,2021,B,Hyperledger Fabric; Hyperledger Sawtooth; Corda; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS,fault_tolerance,,,"[23], Proof-of-Stake (PoS) [24], Proof-of-Authority (PoA) [25],  and practical Byzantine fault tolerance (PBFT) [26]. PoW is the  most popular consensus mechanism allow",,prototype; Docker/Kubernetes; formal verification,,no,no,yes
+ST-0771,2021,B,not specified,healthcare,,,,,,,,no,no,no
+ST-0774,2021,C,not specified,healthcare,,,,,,,,no,no,no
+ST-0777,2021,B,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0779,2021,C,not specified,supply chain,,,,,,,,no,no,no
+ST-0783,2021,B,not specified,supply chain; IoT/edge,,,,,,,,no,no,no
+ST-0786,2021,C,not specified,IoT/edge,,,,,,,,no,no,no
+ST-0787,2021,B,not specified,healthcare; finance/banking; supply chain; IoT/edge,,,,,,,,no,no,no
+ST-0789,2021,B,not specified,healthcare; government/public sector; education,,,,,,,,no,no,no
+ST-0790,2021,C,not specified,healthcare; finance/banking; supply chain; energy/utilities,,,,,,,,no,no,no
+ST-0792,2021,C,not specified,healthcare,,,,,,,,no,no,no
+ST-0793,2021,C,not specified,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0794,2021,A,Hyperledger Fabric; Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,throughput; latency,,,,,simulation; prototype; formal verification,custom benchmark,no,no,no
+ST-0795,2021,C,Hyperledger Fabric,supply chain; IoT/edge,,,,,,,,no,no,no
+ST-0796,2021,B,Hyperledger Fabric; Hyperledger Besu; Quorum; Ethereum; Polkadot/Substrate; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; education,latency; fault_tolerance,,,"the network regulator or reached with an agreement protocol, such as Practical Byzantine Fault Tolerance (PBFT) where two or more parties agree on the result [29]. B. V",,simulation; prototype; cloud deployment,,no,no,yes
+ST-0797,2021,B,Hyperledger Fabric; Hyperledger Besu; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education,throughput; latency; fault_tolerance,1982.6; 263.9 TPS,,"application, e.g., proof-of-work(PoW) [2], proof-of- stake(PoS) [37], practical Byzantine fault tolerant(PBFT) [38], Paxos [39], and Raft. Among them, PoW and PoS algori",,Hyperledger Caliper; simulation; prototype; cloud deployment; Docker/Kubernetes,custom benchmark,yes,no,yes
+ST-0798,2021,B,Hyperledger Fabric; Ethereum; Bitcoin,finance/banking; supply chain; government/public sector; IoT/edge/CPS,throughput; latency; fault_tolerance,,,"exchange. This architecture provides various features like distributed network, fault tolerance and maintenance of a single source of truth. In case of failure of a node, data",,prototype,custom benchmark,no,no,yes
+ST-0801,2021,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0804,2021,B,Hyperledger Fabric,healthcare; supply chain; IoT/edge,,,,,,,,no,no,no
+ST-0811,2021,A,not specified,supply chain; government/public sector; identity; IoT/edge,,,,,,,,no,no,no
+ST-0813,2021,C,not specified,supply chain; government/public sector,,,,,,,,no,no,no
+ST-0814,2021,B,Hyperledger Fabric; Quorum; Ethereum; IOTA; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; IoT/edge/CPS; education; transportation/mobility,throughput; latency; fault_tolerance,100; 10000 TPS,30 seconds; 20 seconds,"It supports WebAssembly (W ASM) and Ethreum Virtual Machine (EVM) and uses the Byzantine Fault Tolerance (BFT) consensus algorithm. In its sophisti- cated event system,",,simulation,,yes,yes,yes
+ST-0815,2021,C,not specified,healthcare; government/public sector,,,,,,,,no,no,no
+ST-0816,2021,C,not specified,healthcare; finance/banking; supply chain; government/public sector; IoT/edge,,,,,,,,no,no,no
+ST-0818,2021,C,Ethereum,healthcare; IoT/edge,,,,,,,,no,no,no
+ST-0822,2021,B,Hyperledger Fabric; Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education,,,,,,prototype,,no,no,no
+ST-0827,2021,C,not specified,unclassified,,,,,,,,no,no,no
+ST-0838,2021,C,not specified,identity; IoT/edge,,,,,,,,no,no,no
+ST-0842,2024,A,Ethereum; Bitcoin,finance/banking; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility,,,,,,simulation; prototype,,no,no,no
+ST-0846,2021,B,Hyperledger Fabric,healthcare,throughput; latency,,,,,Hyperledger Caliper; prototype,,no,no,no
+ST-0847,2025,B,Hyperledger Fabric,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; agriculture,throughput; latency; fault_tolerance; privacy_overhead,1450; 162; 1280 TPS,1.36 seconds; 5 seconds; 10 ms,"FS Blockchain Homomorphic  encryption  algorithm Hash File  fingerprint P2P MPI Byzantine  fault-tolerant  algorithm Proof of work You Wen, et al: Data security and priv","nt, while if it was too large (4096  bits), it would significantly increase the computational cost and prolong the convergence time. Taking  into account both security and effici",simulation,,yes,yes,yes
+ST-0849,2025,B,Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility,privacy_overhead,,0.01 ms,,"is advantageous in distributed networks like Ethereum 2.0. However, due to high computational cost, BLS is more suitable for scenarios that prioritize aggregation and verificatio",,,no,yes,no
+ST-0850,2025,B,Hyperledger Fabric; Bitcoin,finance/banking; supply chain; government/public sector; identity/PKI; education,throughput; latency; fault_tolerance,200; 50; 150 TPS,,"ensures the distributed secure storage of bidding data, enhancing the system’s fault tolerance and resistance to attacks [ 37 ]. In contrast, CP-ABE offers fine-grained acces",,simulation,,yes,no,yes
+ST-0853,2022,B,not specified,healthcare; identity/PKI; IoT/edge/CPS; education; transportation/mobility,,,,,,,,no,no,no
+ST-0856,2023,B,Hyperledger Fabric; Quorum; Ethereum; Bitcoin,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; education,throughput; latency; fault_tolerance,,,"throughput in recent benchmarks [51, 95]. Moreover, due to the use of Istanbul byzantine fault tolerant (IBFT), it provides a highly secure Byzantine Fault tolerant con",,prototype,,no,no,yes
+ST-0859,2023,B,Quorum; Ethereum,healthcare; finance/banking; government/public sector,,,,,,,,no,no,no
+ST-0860,2026,A,Ethereum,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,throughput; latency,,,,,simulation; formal verification,,no,no,no
+ST-0862,2025,A,Ethereum; Bitcoin,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education; agriculture,throughput,,,,,,custom benchmark,no,no,no
+ST-0863,2022,A,Ethereum,healthcare,,,,,,,,no,no,no

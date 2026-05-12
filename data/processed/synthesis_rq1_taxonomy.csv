@@ -1,0 +1,280 @@
+study_id,year,tier,has_fulltext,domain,platform_stack,consensus_strategy,network_model,governance_model,access_control_model,privacy_mechanism,smart_contract_support
+ST-0001,2026,C,False,unclassified,not specified,PBFT,not specified,not specified,not specified,not specified,not specified
+ST-0002,2026,B,True,finance/banking; supply chain; government/public sector; identity/PKI; education,Hyperledger Fabric; Polkadot/Substrate; Bitcoin,BFT (general),consortium; public,consortium agreement,not specified,zero-knowledge proofs; TEE/SGX,not mentioned
+ST-0003,2026,C,False,supply chain; energy/utilities; identity; education,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0004,2026,B,True,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,Hyperledger Fabric,PBFT; BFT (general),consortium; permissioned; public,consortium agreement,not specified,not specified,not mentioned
+ST-0005,2026,C,False,supply chain,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0006,2025,B,True,healthcare; supply chain; energy/utilities; identity/PKI; education,Hyperledger Fabric; Bitcoin,not specified,consortium; permissioned,not specified,not specified,not specified,not mentioned
+ST-0007,2025,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI,Hyperledger Fabric; Ethereum; Bitcoin,PBFT; BFT (general); RAFT; PoA; PoS; PoW,consortium; permissioned; public,not specified,capability-based; MSP (Fabric),not specified,yes
+ST-0008,2025,C,False,unclassified,Cosmos,Tendermint,not specified,not specified,not specified,not specified,not specified
+ST-0009,2025,C,False,unclassified,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0010,2025,B,False,supply chain,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0011,2025,B,True,finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility,Hyperledger Fabric; Hyperledger Besu; Ethereum,not specified,consortium; permissioned; public,not specified,MSP (Fabric),zero-knowledge proofs,not mentioned
+ST-0012,2025,C,False,IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0013,2024,C,False,unclassified,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0014,2024,D,False,unclassified,not specified,PBFT; PoS,not specified,not specified,not specified,not specified,yes
+ST-0015,2024,C,False,unclassified,not specified,PBFT; PoS,not specified,not specified,not specified,not specified,yes
+ST-0016,2024,C,False,IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,yes
+ST-0017,2024,C,False,government/public sector; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0018,2024,A,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility,Hyperledger Fabric; Hyperledger Besu; Ethereum; Bitcoin,not specified,consortium; private; public; hybrid,not specified,decentralized identity,not specified,yes
+ST-0019,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility,Hyperledger Fabric; Bitcoin,not specified,permissioned; private,not specified,RBAC; MSP (Fabric),not specified,yes
+ST-0020,2023,B,True,IoT/edge/CPS,Hyperledger Fabric; Bitcoin,RAFT; PoW,consortium,not specified,not specified,not specified,not mentioned
+ST-0021,2023,C,False,IoT/edge; education,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0022,2023,B,True,supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,Hyperledger Fabric; Ethereum; Bitcoin,PBFT; HotStuff; BFT (general); PoS,consortium; permissioned; public,not specified,decentralized identity,attribute-based encryption,yes
+ST-0023,2023,C,False,healthcare; finance/banking; supply chain; IoT/edge; education,Hyperledger Besu,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0024,2023,C,False,healthcare; finance/banking,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0025,2023,B,True,healthcare; finance/banking; government/public sector; identity/PKI; education,Hyperledger Fabric; Ethereum,BFT (general),consortium; permissioned,not specified,RBAC; decentralized identity,zero-knowledge proofs,yes
+ST-0026,2022,C,False,supply chain; IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0027,2022,B,True,healthcare; finance/banking; supply chain; energy/utilities; identity/PKI; IoT/edge/CPS,Hyperledger Fabric; Ethereum; IOTA; Bitcoin,PBFT; BFT (general); RAFT; PoS; PoW,consortium; permissioned; hybrid,consortium agreement,RBAC; ABAC; ACL; MSP (Fabric),not specified,yes
+ST-0028,2022,D,False,unclassified,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0029,2022,B,True,finance/banking; government/public sector; identity/PKI; education,Hyperledger Iroha; Ethereum,not specified,consortium,regulator-controlled,decentralized identity,zero-knowledge proofs; homomorphic encryption; MPC/secure computation,yes
+ST-0030,2022,C,False,unclassified,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0031,2022,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility,Hyperledger Fabric; Quorum; Ethereum,PBFT; BFT (general); RAFT,consortium; permissioned; public,not specified,not specified,private channels; differential privacy,yes
+ST-0032,2022,C,False,IoT/edge,Hyperledger Fabric; Corda,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0033,2021,D,False,unclassified,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0034,2021,C,False,unclassified,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0035,2021,C,False,finance/banking; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0036,2021,C,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0037,2021,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,Hyperledger Fabric; Quorum; Ethereum,RAFT; PoW,consortium; permissioned; public,regulator-controlled,not specified,zero-knowledge proofs; homomorphic encryption; MPC/secure computation; private channels; attribute-based encryption,yes
+ST-0038,2021,B,True,finance/banking; identity/PKI,Hyperledger Fabric; Quorum; Ethereum; Bitcoin,PBFT; HotStuff; BFT (general); RAFT; PoW,permissioned,not specified,not specified,not specified,yes
+ST-0039,2021,C,False,finance/banking; supply chain; identity; IoT/edge; education,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0040,2021,C,False,IoT/edge,Hyperledger Fabric; Hyperledger Besu; Ethereum,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0041,2021,B,True,supply chain; government/public sector; identity/PKI; IoT/edge/CPS,Hyperledger Fabric; Quorum; Ethereum; Cosmos/Tendermint,PBFT; Tendermint BFT; BFT (general); RAFT; PoA; PoW; Clique (PoA); Istanbul BFT,consortium; permissioned; public,consortium agreement,not specified,not specified,yes
+ST-0042,2021,C,False,IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0043,2021,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,Hyperledger Fabric; Corda; Ethereum; Bitcoin,PoS; PoW; DPoS,consortium; private,multi-sig policy,decentralized identity,MPC/secure computation,yes
+ST-0044,2021,B,True,finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI,Hyperledger Fabric; Corda; Ethereum; Bitcoin,PBFT; BFT (general); PoA; PoS; PoW,consortium; permissioned; private; public; hybrid,DAO/on-chain voting; consortium agreement; multi-sig policy,not specified,not specified,yes
+ST-0045,2025,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; IoT/edge/CPS; education; transportation/mobility,not specified,not specified,consortium,not specified,not specified,MPC/secure computation,not mentioned
+ST-0053,2025,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,Hyperledger Fabric; Ethereum; Cosmos/Tendermint; Ripple/XRP; Stellar; Bitcoin,PBFT; Tendermint BFT; BFT (general); PoA; PoS; PoW; DPoS,consortium; permissioned; private; public,not specified,not specified,not specified,yes
+ST-0055,2024,B,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0060,2026,B,False,supply chain; identity,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0067,2025,A,False,supply chain,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0071,2024,C,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0075,2025,A,False,government/public sector; energy/utilities; identity; IoT/edge; education,not specified,PBFT; RAFT,not specified,not specified,not specified,not specified,not specified
+ST-0083,2024,A,False,healthcare; IoT/edge,Ethereum,not specified,not specified,not specified,not specified,not specified,yes
+ST-0084,2021,B,False,finance/banking; supply chain,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0088,2025,B,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0095,2024,B,True,education,Hyperledger Fabric,not specified,permissioned,not specified,not specified,zero-knowledge proofs,not mentioned
+ST-0097,2023,B,False,government/public sector,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0098,2026,A,False,government/public sector; IoT/edge,not specified,BFT (general); RAFT; HotStuff,not specified,not specified,not specified,not specified,not specified
+ST-0099,2022,C,False,IoT/edge; education,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0113,2025,B,False,supply chain; government/public sector; education,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0125,2023,B,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0128,2021,B,False,healthcare; finance/banking,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0147,2024,C,False,healthcare; supply chain; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0163,2023,C,False,healthcare; education,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0164,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; education,Hyperledger Fabric; Ethereum; Ripple/XRP; Bitcoin,RAFT; PoW,consortium; permissioned,not specified,not specified,MPC/secure computation; tokenisation,yes
+ST-0169,2021,C,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0171,2025,B,False,IoT/edge; education,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0172,2025,C,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,zero-knowledge,not specified
+ST-0175,2025,B,False,healthcare; finance/banking; supply chain,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0182,2022,A,True,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; transportation/mobility,Hyperledger Fabric; Hyperledger Besu; Hyperledger Sawtooth; Hyperledger Iroha; Ethereum,PoA; PoW,consortium; permissioned; private,not specified,not specified,not specified,yes
+ST-0197,2025,B,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,zero-knowledge,yes
+ST-0203,2025,B,False,IoT/edge; education,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,yes
+ST-0224,2023,C,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0227,2025,B,False,supply chain; government/public sector; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0250,2024,B,False,identity; education,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0267,2023,B,False,finance/banking; supply chain; government/public sector; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0270,2025,A,False,finance/banking; supply chain; government/public sector,Ethereum,not specified,not specified,not specified,not specified,not specified,yes
+ST-0277,2023,B,False,government/public sector; education,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0282,2024,B,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0283,2025,B,False,healthcare; identity,not specified,not specified,not specified,not specified,not specified,private channels,not specified
+ST-0289,2022,C,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0290,2021,B,False,supply chain,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0296,2026,C,False,government/public sector,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0297,2026,B,False,supply chain; government/public sector,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0299,2026,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,Hyperledger Fabric; Ethereum; Bitcoin,PBFT; BFT (general); PoS; PoW,consortium; permissioned; private; hybrid,not specified,decentralized identity,tokenisation,yes
+ST-0300,2025,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility,Ethereum; Bitcoin,PBFT; BFT (general); PoA; PoS,consortium; permissioned; hybrid,not specified,RBAC; decentralized identity,zero-knowledge proofs; homomorphic encryption; differential privacy,yes
+ST-0305,2025,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,Hyperledger Fabric; Ethereum; Bitcoin,PoS; PoW; DPoS,consortium; permissioned; private; public; hybrid,not specified,RBAC; decentralized identity,not specified,yes
+ST-0308,2025,A,False,government/public sector,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0310,2025,B,True,healthcare; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,Ethereum,PoS,consortium; permissioned; private; hybrid,multi-sig policy,not specified,not specified,yes
+ST-0315,2025,B,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0316,2025,B,True,healthcare; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,not specified,PoA,consortium; permissioned,not specified,not specified,not specified,not mentioned
+ST-0317,2025,C,False,identity; IoT/edge; education,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0318,2025,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; agriculture,Hyperledger Fabric; Ethereum; Bitcoin,PBFT; BFT (general); PoA; PoS; PoW,consortium; permissioned; private; public; hybrid,not specified,not specified,zero-knowledge proofs,yes
+ST-0319,2025,A,True,healthcare; supply chain; government/public sector; identity/PKI; IoT/edge/CPS,Ethereum,not specified,consortium; permissioned,not specified,not specified,zero-knowledge proofs,yes
+ST-0321,2025,C,False,finance/banking; government/public sector,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0325,2025,C,False,supply chain; government/public sector; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0326,2025,C,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0328,2025,C,False,healthcare; supply chain; government/public sector; identity; education,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0329,2025,D,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,zero-knowledge,yes
+ST-0330,2025,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,Hyperledger Fabric; Quorum; Ethereum,PBFT; PoA; PoS,consortium; permissioned; public,not specified,ACL,zero-knowledge proofs; homomorphic encryption; MPC/secure computation; differential privacy,yes
+ST-0333,2025,B,True,finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,Hyperledger Fabric; Ethereum,BFT (general); PoS; PoW,consortium; permissioned; hybrid,not specified,not specified,zero-knowledge proofs; homomorphic encryption; MPC/secure computation; differential privacy; tokenisation,yes
+ST-0336,2025,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,Hyperledger Fabric,not specified,consortium; permissioned; hybrid,smart contract rules,RBAC; ABAC,attribute-based encryption,yes
+ST-0337,2025,B,False,healthcare; government/public sector; identity,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0340,2025,A,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education,Hyperledger Fabric,not specified,consortium,not specified,not specified,differential privacy,yes
+ST-0342,2025,C,False,identity; IoT/edge,not specified,not specified,not specified,not specified,not specified,homomorphic encryption,not specified
+ST-0343,2025,D,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0345,2025,C,False,government/public sector; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0347,2025,B,False,finance/banking; identity; education,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0348,2025,C,False,finance/banking; government/public sector; identity; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0349,2025,B,True,supply chain; government/public sector; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not mentioned
+ST-0350,2025,A,True,finance/banking; government/public sector,Hyperledger Fabric; Corda,not specified,consortium,not specified,not specified,not specified,not mentioned
+ST-0351,2025,C,False,supply chain; government/public sector; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0352,2025,D,False,finance/banking; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0363,2025,C,False,healthcare; IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,private channels,not specified
+ST-0364,2025,A,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,Hyperledger Fabric; Ethereum; Bitcoin,PBFT; RAFT; PoS; PoW,consortium; permissioned; private; public; hybrid,not specified,RBAC; ABAC; MSP (Fabric),zero-knowledge proofs; private channels; attribute-based encryption,yes
+ST-0366,2025,C,False,healthcare,Ethereum,not specified,not specified,not specified,not specified,not specified,yes
+ST-0367,2025,A,False,healthcare; supply chain; government/public sector; identity,Ethereum,not specified,not specified,not specified,not specified,not specified,yes
+ST-0372,2024,C,False,supply chain; government/public sector,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0373,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,Hyperledger Fabric; Corda; Ethereum; IOTA; Bitcoin; Multichain,PBFT; BFT (general); PoA; PoS; PoW; DPoS,consortium; permissioned; private,not specified,RBAC,not specified,yes
+ST-0374,2024,C,False,healthcare; IoT/edge,not specified,PoS; PoW,not specified,not specified,not specified,zero-knowledge; homomorphic encryption,not specified
+ST-0375,2024,D,False,healthcare; identity; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0377,2024,C,False,supply chain; IoT/edge,not specified,PBFT,not specified,not specified,not specified,not specified,not specified
+ST-0381,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,not specified,PBFT; HotStuff; BFT (general); PoW,consortium; private; public,not specified,not specified,not specified,not mentioned
+ST-0388,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI,Ethereum; Bitcoin,RAFT; PoA,consortium,not specified,ABAC; decentralized identity,zero-knowledge proofs; attribute-based encryption,yes
+ST-0390,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education,Hyperledger Fabric; Corda; Ethereum; Polkadot/Substrate; Bitcoin,PBFT; BFT (general); PoA; PoS; PoW,consortium; permissioned; private; public; hybrid,not specified,decentralized identity,private channels,yes
+ST-0393,2024,B,False,healthcare,Ethereum,not specified,not specified,not specified,not specified,not specified,yes
+ST-0398,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,Quorum; Ethereum; Bitcoin,PoS; PoW,permissioned,multi-sig policy,RBAC; decentralized identity,not specified,yes
+ST-0403,2024,B,True,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,Bitcoin,PoS; PoW,public,not specified,not specified,not specified,yes
+ST-0405,2024,C,False,supply chain; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0408,2024,B,True,healthcare; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,Ethereum,not specified,consortium,not specified,not specified,not specified,not mentioned
+ST-0409,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; agriculture,Hyperledger Fabric; Corda; Ethereum; Bitcoin,BFT (general); RAFT; PoW,consortium; permissioned; private; public,not specified,not specified,not specified,yes
+ST-0413,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education; agriculture,Bitcoin,PoW; DPoS,consortium,not specified,RBAC; ABAC,attribute-based encryption,yes
+ST-0419,2024,B,True,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,Hyperledger Fabric; Ethereum; Bitcoin,PoS,consortium; private; public,not specified,not specified,not specified,yes
+ST-0424,2024,C,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0426,2024,D,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0427,2024,A,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,Hyperledger Fabric; Hyperledger Besu; Ethereum; IOTA; Bitcoin,BFT (general); PoS; PoW,consortium; permissioned; private; public,not specified,not specified,zero-knowledge proofs; homomorphic encryption; attribute-based encryption,yes
+ST-0428,2024,C,False,energy/utilities,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0429,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,Ethereum; Bitcoin,PBFT; BFT (general); PoS; PoW,consortium; permissioned; private; public; hybrid,not specified,decentralized identity,zero-knowledge proofs,yes
+ST-0431,2024,C,False,government/public sector; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0432,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,Ethereum,not specified,consortium,not specified,not specified,differential privacy; tokenisation,yes
+ST-0433,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; agriculture,Ethereum; Ripple/XRP; Bitcoin,PoS; PoW,hybrid,multi-sig policy,not specified,not specified,not mentioned
+ST-0434,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; IoT/edge/CPS; education; transportation/mobility,not specified,PoS; PoW,consortium,not specified,not specified,not specified,yes
+ST-0436,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education; transportation/mobility,Hyperledger Besu; Ethereum,not specified,consortium; public,not specified,decentralized identity,not specified,yes
+ST-0437,2024,C,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0446,2024,B,True,finance/banking; supply chain; government/public sector; identity/PKI; transportation/mobility,Ethereum; Polkadot/Substrate; Cosmos/Tendermint; Bitcoin; Multichain,Tendermint BFT; BFT (general),consortium,not specified,not specified,not specified,yes
+ST-0451,2024,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; agriculture,Hyperledger Fabric,PoW,consortium; permissioned; private; public,not specified,ABAC; ACL; MSP (Fabric),zero-knowledge proofs; homomorphic encryption; MPC/secure computation; differential privacy; TEE/SGX,yes
+ST-0452,2024,C,False,finance/banking; IoT/edge,not specified,not specified,not specified,not specified,not specified,zero-knowledge,not specified
+ST-0456,2024,D,False,unclassified,not specified,not specified,not specified,not specified,not specified,homomorphic encryption,not specified
+ST-0458,2024,C,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,homomorphic encryption,yes
+ST-0459,2024,B,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0460,2023,B,False,healthcare; government/public sector; energy/utilities; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0461,2023,C,False,government/public sector; energy/utilities,not specified,PoW,not specified,not specified,not specified,not specified,not specified
+ST-0463,2023,C,False,finance/banking; government/public sector,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0466,2023,C,False,government/public sector; IoT/edge,not specified,PBFT,not specified,not specified,not specified,not specified,not specified
+ST-0468,2023,C,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0470,2023,B,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0471,2023,C,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0473,2023,B,True,finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI,Bitcoin,PBFT; HotStuff; BFT (general); RAFT; PoS; PoW,consortium; public,multi-sig policy,decentralized identity,not specified,not mentioned
+ST-0475,2023,C,False,unclassified,not specified,PBFT,not specified,not specified,not specified,not specified,not specified
+ST-0484,2023,C,False,supply chain; energy/utilities,not specified,PBFT,not specified,not specified,not specified,not specified,yes
+ST-0487,2023,C,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0492,2023,C,False,unclassified,Ethereum,not specified,not specified,not specified,not specified,not specified,yes
+ST-0496,2023,C,False,IoT/edge,Hyperledger Besu; Ethereum,RAFT,not specified,not specified,not specified,not specified,yes
+ST-0498,2023,D,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0499,2023,B,True,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; education; transportation/mobility,Hyperledger Fabric; Hyperledger Sawtooth; Hyperledger Iroha; Ethereum; Polkadot/Substrate; Bitcoin,not specified,consortium; permissioned; private; public,not specified,ABAC,attribute-based encryption,yes
+ST-0502,2023,B,False,healthcare; supply chain; IoT/edge,Ethereum,not specified,not specified,not specified,not specified,not specified,yes
+ST-0503,2023,C,False,supply chain; government/public sector; identity; IoT/edge; education,not specified,not specified,not specified,not specified,not specified,zero-knowledge,not specified
+ST-0505,2023,C,False,unclassified,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0506,2023,B,False,unclassified,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0515,2023,C,False,supply chain,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0521,2023,B,True,healthcare; finance/banking; supply chain; government/public sector; IoT/edge/CPS; education; transportation/mobility; agriculture,Hyperledger Fabric; Ethereum; Bitcoin,PoW,not specified,not specified,not specified,not specified,yes
+ST-0525,2023,C,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0527,2023,C,False,unclassified,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0530,2023,C,False,healthcare; finance/banking; supply chain; energy/utilities; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0531,2023,C,False,supply chain,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0537,2023,B,False,IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0539,2023,D,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0544,2023,C,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,zero-knowledge,not specified
+ST-0545,2023,B,False,finance/banking; energy/utilities; IoT/edge,Corda; Ethereum,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0548,2023,C,False,IoT/edge; education,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0553,2023,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education,not specified,BFT (general),consortium; permissioned,not specified,not specified,not specified,yes
+ST-0554,2023,D,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0556,2023,C,False,unclassified,not specified,PoW,not specified,not specified,not specified,not specified,not specified
+ST-0557,2023,D,False,unclassified,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0565,2023,C,False,unclassified,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0566,2023,A,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,Hyperledger Fabric; Ethereum; Bitcoin,RAFT,consortium; permissioned; private,not specified,RBAC; ABAC; MSP (Fabric),private channels; attribute-based encryption,yes
+ST-0568,2023,C,False,unclassified,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0569,2023,B,True,education,Ethereum,not specified,consortium,not specified,not specified,homomorphic encryption,yes
+ST-0577,2023,D,False,healthcare; supply chain,not specified,not specified,not specified,not specified,not specified,private channels,not specified
+ST-0579,2022,C,False,healthcare; government/public sector; education,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0580,2022,C,False,government/public sector,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0582,2022,A,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS,Hyperledger Fabric; Corda; Ethereum; IOTA; Ripple/XRP; Bitcoin,PBFT; RAFT; PoS; PoW; DPoS,consortium; private; public,DAO/on-chain voting,not specified,zero-knowledge proofs; private channels; ring signatures,yes
+ST-0586,2022,C,False,supply chain; government/public sector; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0587,2022,C,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0588,2022,D,False,healthcare; supply chain; government/public sector; education,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0596,2022,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,Bitcoin,PBFT; BFT (general); RAFT; PoW,consortium; permissioned; public,multi-sig policy,not specified,not specified,not mentioned
+ST-0598,2022,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; IoT/edge/CPS; education; transportation/mobility,Quorum,BFT (general); RAFT; Istanbul BFT,consortium; permissioned,not specified,not specified,not specified,yes
+ST-0612,2022,B,False,healthcare; education,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0613,2022,A,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,Hyperledger Fabric; Hyperledger Sawtooth; Hyperledger Iroha; Ethereum; Bitcoin,PBFT; BFT (general); PoS; PoW; DPoS,consortium; permissioned; private; public,not specified,decentralized identity,not specified,yes
+ST-0615,2022,A,True,healthcare; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,Hyperledger Fabric; Hyperledger Sawtooth; Ethereum; Bitcoin,PoS; PoW,consortium; permissioned,regulator-controlled,not specified,homomorphic encryption,yes
+ST-0617,2022,C,False,healthcare; finance/banking; government/public sector,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0623,2022,C,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0628,2022,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; IoT/edge/CPS; agriculture,not specified,PBFT; BFT (general); PoW,consortium; permissioned; public,not specified,not specified,not specified,not mentioned
+ST-0633,2022,B,False,healthcare; identity; education,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0636,2022,C,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0642,2022,A,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,homomorphic encryption,yes
+ST-0646,2022,C,False,healthcare; IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,yes
+ST-0653,2022,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility,Hyperledger Fabric; Ethereum; Cosmos/Tendermint; IOTA,Tendermint BFT; BFT (general); PoW,consortium; permissioned; public,consortium agreement; multi-sig policy,MSP (Fabric),not specified,yes
+ST-0654,2022,B,True,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; transportation/mobility,Hyperledger Fabric; Ethereum; Bitcoin,PBFT; BFT (general); PoW,consortium; private,not specified,MSP (Fabric); decentralized identity,zero-knowledge proofs,yes
+ST-0666,2022,C,False,finance/banking; supply chain; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0667,2022,C,False,IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0668,2022,C,False,IoT/edge,Hyperledger Fabric; Hyperledger Sawtooth,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0673,2022,C,False,healthcare; supply chain; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0675,2022,C,False,supply chain; IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0676,2022,C,False,energy/utilities; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0678,2022,C,False,unclassified,not specified,PBFT,not specified,not specified,not specified,not specified,not specified
+ST-0679,2022,B,True,healthcare; finance/banking; supply chain; identity/PKI; IoT/edge/CPS; education; transportation/mobility; agriculture,Hyperledger Fabric; Ethereum; Bitcoin,not specified,consortium; permissioned; private; public,not specified,not specified,not specified,not mentioned
+ST-0693,2022,C,False,energy/utilities; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0698,2022,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,Quorum,BFT (general); Istanbul BFT,consortium,not specified,decentralized identity,not specified,yes
+ST-0699,2022,B,True,healthcare; finance/banking; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility,not specified,not specified,consortium; public,not specified,not specified,zero-knowledge proofs; homomorphic encryption; MPC/secure computation; private channels; differential privacy; ring signatures,yes
+ST-0701,2022,C,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0702,2022,D,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0704,2022,C,False,IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0705,2022,D,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0706,2021,D,False,government/public sector,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0711,2021,A,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education; agriculture,Hyperledger Fabric; Corda; Ethereum; Bitcoin,PBFT; BFT (general),consortium; permissioned,multi-sig policy,not specified,zero-knowledge proofs; homomorphic encryption; private channels,yes
+ST-0713,2021,C,False,government/public sector; energy/utilities; identity; IoT/edge,not specified,PoW,not specified,not specified,not specified,not specified,yes
+ST-0715,2021,D,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0720,2021,B,True,finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education,Ethereum; Bitcoin,PoW,private,not specified,decentralized identity,homomorphic encryption; tokenisation,yes
+ST-0725,2021,B,True,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,Hyperledger Fabric; Ethereum; Bitcoin,PBFT; BFT (general); RAFT; PoW,consortium; permissioned; private; public,not specified,MSP (Fabric),private channels,yes
+ST-0728,2021,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; transportation/mobility,Hyperledger Fabric; Corda; Ethereum; Stellar; Bitcoin,PBFT; BFT (general); PoA; PoS; PoW; DPoS,permissioned,DAO/on-chain voting,decentralized identity,TEE/SGX,yes
+ST-0732,2021,B,False,supply chain; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0733,2021,B,False,healthcare,Ethereum,not specified,not specified,not specified,not specified,not specified,yes
+ST-0736,2021,C,False,energy/utilities; IoT/edge,not specified,PoS; PoW,not specified,not specified,not specified,not specified,not specified
+ST-0750,2021,B,False,healthcare; finance/banking; energy/utilities; IoT/edge; education,Ethereum,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0751,2021,D,False,supply chain,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0753,2021,B,True,healthcare; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; transportation/mobility,Ethereum,not specified,consortium; private; public,not specified,not specified,not specified,not mentioned
+ST-0755,2021,B,False,IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0763,2021,D,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0764,2021,C,False,finance/banking; IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0767,2021,C,False,healthcare; supply chain,Ethereum,not specified,not specified,not specified,not specified,not specified,yes
+ST-0768,2021,B,True,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS,Hyperledger Fabric; Hyperledger Sawtooth; Corda; Ethereum; Bitcoin,PBFT; BFT (general); RAFT; PoA; PoS; PoW,permissioned; private; public,not specified,not specified,not specified,yes
+ST-0771,2021,B,False,healthcare,not specified,PBFT,not specified,not specified,not specified,not specified,not specified
+ST-0774,2021,C,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0777,2021,B,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,homomorphic encryption; private channels,not specified
+ST-0779,2021,C,False,supply chain,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0783,2021,B,False,supply chain; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0786,2021,C,False,IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0787,2021,B,False,healthcare; finance/banking; supply chain; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0789,2021,B,True,healthcare; government/public sector; education,not specified,not specified,not specified,not specified,not specified,not specified,not mentioned
+ST-0790,2021,C,False,healthcare; finance/banking; supply chain; energy/utilities,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0792,2021,C,False,healthcare,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0793,2021,C,False,healthcare; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0794,2021,A,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,Hyperledger Fabric; Ethereum,PoS,consortium; permissioned; hybrid,not specified,not specified,private channels,yes
+ST-0795,2021,C,False,supply chain; IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0796,2021,B,True,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; education,Hyperledger Fabric; Hyperledger Besu; Quorum; Ethereum; Polkadot/Substrate; Bitcoin,PBFT; BFT (general); PoW,consortium; permissioned; private,not specified,not specified,not specified,yes
+ST-0797,2021,B,True,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education,Hyperledger Fabric; Hyperledger Besu; Ethereum; Bitcoin,PBFT; BFT (general); RAFT; PoS; PoW,consortium; permissioned; private; public; hybrid,DAO/on-chain voting,MSP (Fabric),not specified,yes
+ST-0798,2021,B,True,finance/banking; supply chain; government/public sector; IoT/edge/CPS,Hyperledger Fabric; Ethereum; Bitcoin,PoS; PoW,consortium; permissioned; private; public,not specified,not specified,not specified,yes
+ST-0801,2021,C,False,unclassified,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0804,2021,B,False,healthcare; supply chain; IoT/edge,Hyperledger Fabric,not specified,not specified,not specified,not specified,not specified,yes
+ST-0811,2021,A,False,supply chain; government/public sector; identity; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0813,2021,C,False,supply chain; government/public sector,not specified,not specified,not specified,not specified,not specified,not specified,yes
+ST-0814,2021,B,True,healthcare; finance/banking; supply chain; government/public sector; IoT/edge/CPS; education; transportation/mobility,Hyperledger Fabric; Quorum; Ethereum; IOTA; Bitcoin,BFT (general); RAFT; PoS; PoW; Istanbul BFT,permissioned; public,DAO/on-chain voting,RBAC,private channels,yes
+ST-0815,2021,C,False,healthcare; government/public sector,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0816,2021,C,False,healthcare; finance/banking; supply chain; government/public sector; IoT/edge,not specified,not specified,not specified,not specified,not specified,not specified,not specified
+ST-0818,2021,C,False,healthcare; IoT/edge,Ethereum,not specified,not specified,not specified,not specified,not specified,yes
+ST-0822,2021,B,True,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education,Hyperledger Fabric; Ethereum; Bitcoin,not specified,consortium; public,not specified,not specified,not specified,yes
+ST-0827,2021,C,False,unclassified,not specified,not specified,not specified,not specified,not specified,homomorphic encryption,yes
+ST-0838,2021,C,False,identity; IoT/edge,not specified,not specified,not specified,not specified,not specified,private channels,not specified
+ST-0842,2024,A,True,finance/banking; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility,Ethereum; Bitcoin,PoS; PoW,not specified,DAO/on-chain voting,decentralized identity,zero-knowledge proofs; homomorphic encryption; MPC/secure computation,not mentioned
+ST-0846,2021,B,True,healthcare,Hyperledger Fabric,not specified,permissioned,not specified,not specified,not specified,yes
+ST-0847,2025,B,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education; agriculture,Hyperledger Fabric,PBFT; BFT (general); PoW,consortium; public,consortium agreement; multi-sig policy,ABAC,homomorphic encryption; differential privacy; attribute-based encryption,yes
+ST-0849,2025,B,True,healthcare; finance/banking; supply chain; government/public sector; identity/PKI; IoT/edge/CPS; education; transportation/mobility,Ethereum; Bitcoin,not specified,consortium; private; public,multi-sig policy,not specified,zero-knowledge proofs; private channels; attribute-based encryption,not mentioned
+ST-0850,2025,B,True,finance/banking; supply chain; government/public sector; identity/PKI; education,Hyperledger Fabric; Bitcoin,PBFT; RAFT,consortium,not specified,ABAC,zero-knowledge proofs; homomorphic encryption; MPC/secure computation; attribute-based encryption,yes
+ST-0853,2022,B,True,healthcare; identity/PKI; IoT/edge/CPS; education; transportation/mobility,not specified,not specified,consortium,not specified,not specified,not specified,not mentioned
+ST-0856,2023,B,True,healthcare; finance/banking; government/public sector; energy/utilities; identity/PKI; education,Hyperledger Fabric; Quorum; Ethereum; Bitcoin,BFT (general); PoW; Clique (PoA); Istanbul BFT,consortium; permissioned; public,not specified,decentralized identity,zero-knowledge proofs; homomorphic encryption; private channels; TEE/SGX; tokenisation,yes
+ST-0859,2023,B,True,healthcare; finance/banking; government/public sector,Quorum; Ethereum,not specified,consortium; permissioned; private,not specified,not specified,not specified,yes
+ST-0860,2026,A,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; IoT/edge/CPS; education,Ethereum,PoA; PoS; PoW,consortium; private; public,not specified,RBAC; ABAC; decentralized identity,homomorphic encryption; MPC/secure computation; attribute-based encryption,yes
+ST-0862,2025,A,True,healthcare; finance/banking; supply chain; government/public sector; energy/utilities; identity/PKI; education; agriculture,Ethereum; Bitcoin,PoW,private,multi-sig policy,not specified,zero-knowledge proofs,yes
+ST-0863,2022,A,False,healthcare,Ethereum,not specified,not specified,not specified,not specified,not specified,yes

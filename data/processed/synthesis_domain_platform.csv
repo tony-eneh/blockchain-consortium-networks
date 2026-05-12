@@ -1,0 +1,153 @@
+domain,platform,count
+IoT/edge,not specified,68
+healthcare,Ethereum,64
+government/public sector,Ethereum,64
+healthcare,not specified,62
+finance/banking,Ethereum,61
+supply chain,Ethereum,61
+identity/PKI,Ethereum,61
+finance/banking,Hyperledger Fabric,54
+supply chain,Hyperledger Fabric,54
+government/public sector,Hyperledger Fabric,52
+identity/PKI,Hyperledger Fabric,52
+finance/banking,Bitcoin,51
+identity/PKI,Bitcoin,51
+government/public sector,Bitcoin,50
+healthcare,Hyperledger Fabric,50
+supply chain,Bitcoin,48
+IoT/edge/CPS,Ethereum,48
+supply chain,not specified,44
+healthcare,Bitcoin,44
+energy/utilities,Ethereum,44
+government/public sector,not specified,44
+education,Hyperledger Fabric,42
+IoT/edge/CPS,Hyperledger Fabric,42
+education,Ethereum,42
+IoT/edge/CPS,Bitcoin,37
+education,Bitcoin,36
+energy/utilities,Hyperledger Fabric,35
+energy/utilities,Bitcoin,35
+transportation/mobility,Ethereum,27
+finance/banking,not specified,24
+education,not specified,23
+unclassified,not specified,21
+transportation/mobility,Hyperledger Fabric,21
+IoT/edge,Hyperledger Fabric,21
+transportation/mobility,Bitcoin,20
+energy/utilities,not specified,17
+identity,not specified,17
+agriculture,Bitcoin,12
+finance/banking,Quorum,11
+government/public sector,Quorum,11
+agriculture,Ethereum,11
+finance/banking,Corda,11
+healthcare,Quorum,10
+agriculture,Hyperledger Fabric,10
+government/public sector,Corda,10
+supply chain,Quorum,9
+identity/PKI,Quorum,9
+supply chain,Corda,9
+identity/PKI,Corda,9
+finance/banking,Hyperledger Besu,8
+supply chain,Hyperledger Besu,8
+IoT/edge/CPS,Quorum,8
+education,Quorum,8
+healthcare,Corda,8
+energy/utilities,Corda,8
+government/public sector,Hyperledger Besu,7
+identity/PKI,Hyperledger Besu,7
+healthcare,Hyperledger Besu,7
+energy/utilities,Quorum,7
+IoT/edge,Ethereum,7
+IoT/edge/CPS,not specified,7
+healthcare,IOTA,6
+finance/banking,IOTA,6
+supply chain,IOTA,6
+IoT/edge/CPS,IOTA,6
+IoT/edge/CPS,Corda,6
+finance/banking,Polkadot,5
+supply chain,Polkadot,5
+government/public sector,Polkadot,5
+identity/PKI,Polkadot,5
+IoT/edge/CPS,Hyperledger Besu,5
+education,Hyperledger Besu,5
+energy/utilities,IOTA,5
+identity/PKI,IOTA,5
+transportation/mobility,Quorum,5
+education,Corda,5
+transportation/mobility,not specified,5
+healthcare,Hyperledger Sawtooth,5
+supply chain,Hyperledger Sawtooth,5
+government/public sector,Hyperledger Sawtooth,5
+identity/PKI,Hyperledger Sawtooth,5
+identity/PKI,not specified,5
+government/public sector,IOTA,5
+education,Polkadot,4
+transportation/mobility,Hyperledger Besu,4
+finance/banking,Hyperledger Iroha,4
+government/public sector,Hyperledger Iroha,4
+identity/PKI,Hyperledger Iroha,4
+supply chain,Cosmos,4
+government/public sector,Cosmos,4
+identity/PKI,Cosmos,4
+healthcare,Ripple,4
+finance/banking,Ripple,4
+supply chain,Ripple,4
+government/public sector,Ripple,4
+identity/PKI,Ripple,4
+finance/banking,Hyperledger Sawtooth,4
+IoT/edge/CPS,Hyperledger Sawtooth,4
+transportation/mobility,Hyperledger Sawtooth,4
+energy/utilities,Hyperledger Besu,3
+IoT/edge,Hyperledger Besu,3
+education,Hyperledger Iroha,3
+IoT/edge/CPS,Cosmos,3
+finance/banking,Cosmos,3
+energy/utilities,Ripple,3
+IoT/edge/CPS,Ripple,3
+healthcare,Hyperledger Iroha,3
+supply chain,Hyperledger Iroha,3
+transportation/mobility,Hyperledger Iroha,3
+transportation/mobility,IOTA,3
+healthcare,Polkadot,3
+education,Hyperledger Sawtooth,3
+IoT/edge,Corda,2
+healthcare,Cosmos,2
+healthcare,Stellar,2
+finance/banking,Stellar,2
+supply chain,Stellar,2
+government/public sector,Stellar,2
+energy/utilities,Cosmos,2
+energy/utilities,Stellar,2
+identity/PKI,Stellar,2
+IoT/edge/CPS,Stellar,2
+education,Ripple,2
+IoT/edge/CPS,Hyperledger Iroha,2
+agriculture,not specified,2
+finance/banking,Multichain,2
+supply chain,Multichain,2
+government/public sector,Multichain,2
+identity/PKI,Multichain,2
+education,IOTA,2
+transportation/mobility,Corda,2
+transportation/mobility,Multichain,2
+agriculture,Corda,2
+transportation/mobility,Polkadot,2
+transportation/mobility,Cosmos,2
+energy/utilities,Hyperledger Sawtooth,2
+unclassified,Cosmos,1
+agriculture,Quorum,1
+identity,Hyperledger Fabric,1
+identity,Ethereum,1
+healthcare,Multichain,1
+energy/utilities,Multichain,1
+IoT/edge/CPS,Multichain,1
+education,Multichain,1
+IoT/edge/CPS,Polkadot,1
+agriculture,Ripple,1
+unclassified,Ethereum,1
+energy/utilities,Hyperledger Iroha,1
+agriculture,Hyperledger Sawtooth,1
+IoT/edge,Hyperledger Sawtooth,1
+education,Stellar,1
+transportation/mobility,Stellar,1

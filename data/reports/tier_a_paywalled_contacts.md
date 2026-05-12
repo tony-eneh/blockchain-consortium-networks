@@ -1,0 +1,419 @@
+# Tier A Paywalled Papers — Author Contact List
+
+**Date:** 2026-05-04  
+**Papers:** 13  
+**Purpose:** Request preprints/accepted manuscripts for SLR full-text extraction
+
+---
+
+### 1. FT-0067 — The Use of Blockchain for Legislative Simplification and Tracking
+
+**DOI:** 10.1109/ICEDEG65568.2025.11081571  
+**Year:** 2025  
+**Venue:**   
+**Authors:** Monica Palmirani (University of Bologna); Chantal Bomprezzi (University of Bologna); Ludovico Papalia (University of Bologna)  
+**Corresponding:** Monica Palmirani (University of Bologna)  
+**Email on file:** *(not in OpenAlex)*  
+
+**Suggested email:**
+
+```
+Dear Dr. Palmirani,
+
+I am conducting a PRISMA 2020 systematic literature review on blockchain utilization strategies in institutional consortium networks. Your paper:
+
+  "The Use of Blockchain for Legislative Simplification and Tracking"
+  DOI: 10.1109/ICEDEG65568.2025.11081571
+
+is of direct relevance to my review. Unfortunately, I do not have institutional access to this venue. Would you be willing to share a preprint or accepted-manuscript version of your paper? I would use it solely for academic research purposes.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+Tony Eneh
+anthony@kumoh.ac.kr
+Network & Security Lab, Kumoh National Institute of Technology
+```
+
+---
+
+### 2. FT-0075 — A Scalable Distributed Blockchain Framework for Secure Incident Reporting
+
+**DOI:** 10.1109/ICNGN67480.2025.11413685  
+**Year:** 2025  
+**Venue:**   
+**Authors:** Rogelio Bon. Intud (West Negros University); Ramil G. Lumauag (Iloilo Science and Technology University; University of Iloilo)  
+**Corresponding:** Rogelio Bon. Intud (West Negros University)  
+**Email on file:** *(not in OpenAlex)*  
+
+**Suggested email:**
+
+```
+Dear Dr. Intud,
+
+I am conducting a PRISMA 2020 systematic literature review on blockchain utilization strategies in institutional consortium networks. Your paper:
+
+  "A Scalable Distributed Blockchain Framework for Secure Incident Reporting"
+  DOI: 10.1109/ICNGN67480.2025.11413685
+
+is of direct relevance to my review. Unfortunately, I do not have institutional access to this venue. Would you be willing to share a preprint or accepted-manuscript version of your paper? I would use it solely for academic research purposes.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+Tony Eneh
+anthony@kumoh.ac.kr
+Network & Security Lab, Kumoh National Institute of Technology
+```
+
+---
+
+### 3. FT-0083 — Experimental Possibilities of Decentralized Health Information System Interoperability Using Blockchain Technology
+
+**DOI:** 10.1109/ICSCNA63714.2024.10863833  
+**Year:** 2024  
+**Venue:**   
+**Authors:** Jayapreethi Manoharan (Saveetha University); Abdulrahman H Ali (Taibah University); Marwan M Aljohani (Islamic University of Madinah); Anita Soni; V Gowrishankar (Tabor College); Shrikant Upadhyay  
+**Corresponding:** Jayapreethi Manoharan (Saveetha University)  
+**Email on file:** *(not in OpenAlex)*  
+
+**Suggested email:**
+
+```
+Dear Dr. Manoharan,
+
+I am conducting a PRISMA 2020 systematic literature review on blockchain utilization strategies in institutional consortium networks. Your paper:
+
+  "Experimental Possibilities of Decentralized Health Information System Interoperability Using Blockchain Technology"
+  DOI: 10.1109/ICSCNA63714.2024.10863833
+
+is of direct relevance to my review. Unfortunately, I do not have institutional access to this venue. Would you be willing to share a preprint or accepted-manuscript version of your paper? I would use it solely for academic research purposes.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+Tony Eneh
+anthony@kumoh.ac.kr
+Network & Security Lab, Kumoh National Institute of Technology
+```
+
+---
+
+### 4. FT-0098 — Let the Blocks Fly (Flying Blocks): A Highly Efficient and Practical Consensus Protocol for Authoritative Blockchains
+
+**DOI:** 10.1109/TDSC.2025.3621228  
+**Year:** 2025  
+**Venue:** IEEE Transactions on Dependable and Secure Computing  
+**Authors:** Xiang Fu (National University of Defense Technology); Liaoliao Feng (National University of Defense Technology); Huaimin Wang (National University of Defense Technology); Bo Ding (National University of Defense Technology); Jun Fu (National University of Defense Technology)  
+**Corresponding:** Xiang Fu (National University of Defense Technology)  
+**Email on file:** *(not in OpenAlex)*  
+
+**Suggested email:**
+
+```
+Dear Dr. Fu,
+
+I am conducting a PRISMA 2020 systematic literature review on blockchain utilization strategies in institutional consortium networks. Your paper:
+
+  "Let the Blocks Fly (Flying Blocks): A Highly Efficient and Practical Consensus Protocol for Authoritative Blockchains"
+  DOI: 10.1109/TDSC.2025.3621228
+
+is of direct relevance to my review. Unfortunately, I do not have institutional access to this venue. Would you be willing to share a preprint or accepted-manuscript version of your paper? I would use it solely for academic research purposes.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+Tony Eneh
+anthony@kumoh.ac.kr
+Network & Security Lab, Kumoh National Institute of Technology
+```
+
+---
+
+### 5. FT-0182 — A Fog and Blockchain Software Architecture for a Global Scale Vaccination Strategy
+
+**DOI:** 10.1109/ACCESS.2022.3169418  
+**Year:** 2022  
+**Venue:** IEEE Access  
+**Authors:** Humberto Jorge De Moura Costa (Universidade do Vale do Rio dos Sinos); Cristiano André da Costa (Universidade do Vale do Rio dos Sinos); Rodrigo da Rosa Righi (Universidade do Vale do Rio dos Sinos); Rodolfo Stoffel Antunes (Universidade do Vale do Rio dos Sinos); Juan F. De Paz (Universidad de Salamanca); Valderi Reis Quietinho Leithardt  
+**Corresponding:** Humberto Jorge De Moura Costa (Universidade do Vale do Rio dos Sinos)  
+**Email on file:** *(not in OpenAlex)*  
+
+**Suggested email:**
+
+```
+Dear Dr. Costa,
+
+I am conducting a PRISMA 2020 systematic literature review on blockchain utilization strategies in institutional consortium networks. Your paper:
+
+  "A Fog and Blockchain Software Architecture for a Global Scale Vaccination Strategy"
+  DOI: 10.1109/ACCESS.2022.3169418
+
+is of direct relevance to my review. Unfortunately, I do not have institutional access to this venue. Would you be willing to share a preprint or accepted-manuscript version of your paper? I would use it solely for academic research purposes.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+Tony Eneh
+anthony@kumoh.ac.kr
+Network & Security Lab, Kumoh National Institute of Technology
+```
+
+---
+
+### 6. FT-0270 — Optimizing Transparency and Accountability in Subsidized Fertilizer Budget Distribution and Reporting through Blockchain Technology
+
+**DOI:** 10.1109/ICIMCIS68501.2025.11327152  
+**Year:** 2025  
+**Venue:**   
+**Authors:** Dinda Nor’ainunnajah (Binus University); Joshua Pratama Silitonga (Binus University); Meta Amalya Dewi (Binus University)  
+**Corresponding:** Dinda Nor’ainunnajah (Binus University)  
+**Email on file:** *(not in OpenAlex)*  
+
+**Suggested email:**
+
+```
+Dear Dr. Nor’ainunnajah,
+
+I am conducting a PRISMA 2020 systematic literature review on blockchain utilization strategies in institutional consortium networks. Your paper:
+
+  "Optimizing Transparency and Accountability in Subsidized Fertilizer Budget Distribution and Reporting through Blockchain Technology"
+  DOI: 10.1109/ICIMCIS68501.2025.11327152
+
+is of direct relevance to my review. Unfortunately, I do not have institutional access to this venue. Would you be willing to share a preprint or accepted-manuscript version of your paper? I would use it solely for academic research purposes.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+Tony Eneh
+anthony@kumoh.ac.kr
+Network & Security Lab, Kumoh National Institute of Technology
+```
+
+---
+
+### 7. FT-0308 — Blockchain and Smart Public Procurement Contracts: A Comparative Legal Analysis of Digital Transformation in the Public Sector
+
+**DOI:** 10.33327/ajee-18-8.4-a000137  
+**Year:** 2025  
+**Venue:** Access to Justice in Eastern Europe  
+**Authors:** Enas Mohammed Alqodsi  
+**Corresponding:** Enas Mohammed Alqodsi ()  
+**Email on file:** *(not in OpenAlex)*  
+
+**Suggested email:**
+
+```
+Dear Dr. Alqodsi,
+
+I am conducting a PRISMA 2020 systematic literature review on blockchain utilization strategies in institutional consortium networks. Your paper:
+
+  "Blockchain and Smart Public Procurement Contracts: A Comparative Legal Analysis of Digital Transformation in the Public Sector"
+  DOI: 10.33327/ajee-18-8.4-a000137
+
+is of direct relevance to my review. Unfortunately, I do not have institutional access to this venue. Would you be willing to share a preprint or accepted-manuscript version of your paper? I would use it solely for academic research purposes.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+Tony Eneh
+anthony@kumoh.ac.kr
+Network & Security Lab, Kumoh National Institute of Technology
+```
+
+---
+
+### 8. FT-0367 — EmbryoTrust: A Blockchain-Based Framework for Trustworthy, Secure, and Ethical In Vitro Fertilization Data Management and Fertility Preservation
+
+**DOI:** 10.3390/electronics14234648  
+**Year:** 2025  
+**Venue:** Electronics  
+**Authors:** Hessah A. Alsalamah (King Saud University); Saeed Alqahtani (King Saud University); Ghazlan Al-Arifi (King Saud University); Jana Al-Sadhan (King Saud University); Reema A. Almutairi (King Saud University); Nahla Bakhamis (King Saud Medical City; King Saud University); Fady I. Sharara (George Washington University); Shada Alsalamah (King Saud University)  
+**Corresponding:** Shada Alsalamah (King Saud University)  
+**Email on file:** *(not in OpenAlex)*  
+
+**Suggested email:**
+
+```
+Dear Dr. Alsalamah,
+
+I am conducting a PRISMA 2020 systematic literature review on blockchain utilization strategies in institutional consortium networks. Your paper:
+
+  "EmbryoTrust: A Blockchain-Based Framework for Trustworthy, Secure, and Ethical In Vitro Fertilization Data Management and Fertility Preservation"
+  DOI: 10.3390/electronics14234648
+
+is of direct relevance to my review. Unfortunately, I do not have institutional access to this venue. Would you be willing to share a preprint or accepted-manuscript version of your paper? I would use it solely for academic research purposes.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+Tony Eneh
+anthony@kumoh.ac.kr
+Network & Security Lab, Kumoh National Institute of Technology
+```
+
+---
+
+### 9. FT-0613 — Blockchain Technology for Intelligent Transportation Systems: A Systematic Literature Review
+
+**DOI:** 10.1109/access.2022.3149958  
+**Year:** 2022  
+**Venue:** IEEE Access  
+**Authors:** Rateb Jabbar (Qatar University); Eya Dhib; Ahmed Ben Said (Qatar University); Moez Krichen (University of Sfax); Noora Fetais (Qatar University); Esmat Zaidan (Qatar University); Kamel Barkaoui (Conservatoire National des Arts et Métiers)  
+**Corresponding:** Rateb Jabbar (Qatar University)  
+**Email on file:** *(not in OpenAlex)*  
+
+**Suggested email:**
+
+```
+Dear Dr. Jabbar,
+
+I am conducting a PRISMA 2020 systematic literature review on blockchain utilization strategies in institutional consortium networks. Your paper:
+
+  "Blockchain Technology for Intelligent Transportation Systems: A Systematic Literature Review"
+  DOI: 10.1109/access.2022.3149958
+
+is of direct relevance to my review. Unfortunately, I do not have institutional access to this venue. Would you be willing to share a preprint or accepted-manuscript version of your paper? I would use it solely for academic research purposes.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+Tony Eneh
+anthony@kumoh.ac.kr
+Network & Security Lab, Kumoh National Institute of Technology
+```
+
+---
+
+### 10. FT-0642 — Deep Learning Based Homomorphic Secure Search-Able Encryption for Keyword Search in Blockchain Healthcare System: A Novel Approach to Cryptography
+
+**DOI:** 10.3390/s22020528  
+**Year:** 2022  
+**Venue:** Sensors  
+**Authors:** Aitizaz Ali (Monash University Malaysia); Muhammad Fermi Pasha (Monash University Malaysia); Jehad Ali (Ajou University); Ong Huey Fang (Monash University Malaysia); Mehedi Masud (Taif University); Anca Delia Jurcut (University College Dublin); Mohammed A. AlZain (Taif University)  
+**Corresponding:** Jehad Ali (Ajou University)  
+**Email on file:** *(not in OpenAlex)*  
+
+**Suggested email:**
+
+```
+Dear Dr. Ali,
+
+I am conducting a PRISMA 2020 systematic literature review on blockchain utilization strategies in institutional consortium networks. Your paper:
+
+  "Deep Learning Based Homomorphic Secure Search-Able Encryption for Keyword Search in Blockchain Healthcare System: A Novel Approach to Cryptography"
+  DOI: 10.3390/s22020528
+
+is of direct relevance to my review. Unfortunately, I do not have institutional access to this venue. Would you be willing to share a preprint or accepted-manuscript version of your paper? I would use it solely for academic research purposes.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+Tony Eneh
+anthony@kumoh.ac.kr
+Network & Security Lab, Kumoh National Institute of Technology
+```
+
+---
+
+### 11. FT-0794 — Hyperledger blockchain enabled secure medical record management with deep learning-based diagnosis model
+
+**DOI:** 10.1007/s40747-021-00549-w  
+**Year:** 2021  
+**Venue:** Complex & Intelligent Systems  
+**Authors:** Naresh Sammeta (Jawaharlal Nehru Technological University, Kakinada; Dr. M.G.R. Educational and Research Institute); Latha Parthiban (Pondicherry University)  
+**Corresponding:** Naresh Sammeta (Jawaharlal Nehru Technological University, Kakinada; Dr. M.G.R. Educational and Research Institute)  
+**Email on file:** *(not in OpenAlex)*  
+
+**Suggested email:**
+
+```
+Dear Dr. Sammeta,
+
+I am conducting a PRISMA 2020 systematic literature review on blockchain utilization strategies in institutional consortium networks. Your paper:
+
+  "Hyperledger blockchain enabled secure medical record management with deep learning-based diagnosis model"
+  DOI: 10.1007/s40747-021-00549-w
+
+is of direct relevance to my review. Unfortunately, I do not have institutional access to this venue. Would you be willing to share a preprint or accepted-manuscript version of your paper? I would use it solely for academic research purposes.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+Tony Eneh
+anthony@kumoh.ac.kr
+Network & Security Lab, Kumoh National Institute of Technology
+```
+
+---
+
+### 12. FT-0811 — Physical Internet: First results and next challenges
+
+**DOI:** 10.1111/jbl.12268  
+**Year:** 2021  
+**Venue:** Journal of Business Logistics  
+**Authors:** Éric Ballot (Université Paris Sciences et Lettres; Centre de Gestion Scientifique; École Nationale Supérieure des Mines de Paris); Benoît Montreuil (Lehigh University); Zach G. Zacharia (Lehigh University)  
+**Corresponding:** Zach G. Zacharia (Lehigh University)  
+**Email on file:** *(not in OpenAlex)*  
+
+**Suggested email:**
+
+```
+Dear Dr. Zacharia,
+
+I am conducting a PRISMA 2020 systematic literature review on blockchain utilization strategies in institutional consortium networks. Your paper:
+
+  "Physical Internet: First results and next challenges"
+  DOI: 10.1111/jbl.12268
+
+is of direct relevance to my review. Unfortunately, I do not have institutional access to this venue. Would you be willing to share a preprint or accepted-manuscript version of your paper? I would use it solely for academic research purposes.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+Tony Eneh
+anthony@kumoh.ac.kr
+Network & Security Lab, Kumoh National Institute of Technology
+```
+
+---
+
+### 13. FT-0863 — CertificateChain: decentralized healthcare training certificate management system using blockchain and smart contracts
+
+**DOI:** 10.1093/jamiaopen/ooac019  
+**Year:** 2022  
+**Venue:** JAMIA Open  
+**Authors:** Jeffrey Tellew (University of California, Santa Barbara); Tsung-Ting Kuo (University of California San Diego)  
+**Corresponding:** Tsung-Ting Kuo (University of California San Diego)  
+**Email on file:** *(not in OpenAlex)*  
+
+**Suggested email:**
+
+```
+Dear Dr. Kuo,
+
+I am conducting a PRISMA 2020 systematic literature review on blockchain utilization strategies in institutional consortium networks. Your paper:
+
+  "CertificateChain: decentralized healthcare training certificate management system using blockchain and smart contracts"
+  DOI: 10.1093/jamiaopen/ooac019
+
+is of direct relevance to my review. Unfortunately, I do not have institutional access to this venue. Would you be willing to share a preprint or accepted-manuscript version of your paper? I would use it solely for academic research purposes.
+
+Thank you very much for your time and consideration.
+
+Sincerely,
+Tony Eneh
+anthony@kumoh.ac.kr
+Network & Security Lab, Kumoh National Institute of Technology
+```
+
+---
+
+## Sending checklist
+
+- [ ] Find corresponding author email via Google Scholar / ResearchGate if not in OpenAlex
+- [ ] Send from `anthony@kumoh.ac.kr`
+- [ ] Subject line: *Preprint request — [Title]*
+- [ ] After receiving, save PDF as `FT-XXXX.pdf` in `data/fulltext/tier-ab/`
+- [ ] Update `fulltext_screening.csv` `local_path` column
+- [ ] Re-run `scripts/extract_tierab_data.py` to extract fields
