@@ -5,7 +5,7 @@ Drafted the empty Results, Discussion, and Conclusion sections for the paper **"
 
 ## Changes Made
 
-### 1. `main.tex`
+### 1. `paper.tex`
 - Replaced the author email TODO with `anthony@kumoh.ac.kr`
 - Completed the abstract ending with:
   - provisional PRISMA counts
