@@ -38,7 +38,8 @@ def fulltext_summary() -> dict[str, int]:
         rows = list(csv.DictReader(handle))
     ta = Counter(r["title_abstract_decision"] for r in rows)
     ftd = Counter(r["final_decision"] for r in rows)
-    reason = Counter(r["fulltext_exclusion_reason_code"] for r in rows if r["final_decision"] == "exclude")
+    reason = Counter(r["fulltext_exclusion_reason_code"]
+                     for r in rows if r["final_decision"] == "exclude")
     return {
         "candidates": len(rows),
         "ta_include": ta.get("INCLUDE", 0),
@@ -93,7 +94,7 @@ def build_tex(summary: dict[str, int]) -> str:
     \draw[side] (ft) -- (ftexcl);
   \end{{tikzpicture}}
   \caption{{PRISMA 2020 flow diagram for the blockchain consortium networks systematic review.
-  All counts are auto-generated from \texttt{{data/processed/fulltext_screening.csv}} via \texttt{{scripts/generate\_prisma\_flow.py}}.
+  All counts are auto-generated from \texttt{{data/processed/fulltext\_screening.csv}} via \texttt{{scripts/generate\_prisma\_flow.py}}.
   The agent-driven uncertain-resolution workflow and the agent full-text review of the first-pass include pool produced the final candidate-to-include funnel reported here.}}
   \label{{fig:prisma-flow}}
 \end{{figure*}}
