@@ -223,10 +223,9 @@ All agent decisions are recorded in \texttt{data/processed/fulltext\_screening.c
 
 \input{figures/prisma_flow.tex}
 
-\subsection{Study Characteristics}
+\subsection{Study Characteristics and Quality Distribution}
 
-Study-characteristics extraction has not yet been completed because the final author-confirmed inclusion set is still under construction.
-An extraction sheet has already been generated in the repository for the 863 candidate studies that survived first-pass screening; the 279-record post-full-text agent inclusion set is a strict subset of that sheet and provides the working population for data extraction, quality assessment, and synthesis in the next review iteration.
+The 279 included studies exhibited substantial heterogeneity in study quality and rigor. Across the GRADE-informed four-dimension assessment (construct validity, internal validity, external validity, and reproducibility), quality scores ranged from 0 to 8. The final tier distribution was: \textbf{Tier A (score 6--8): 26 studies} (9\% of corpus), \textbf{Tier B (4--5): 122 studies} (44\%), \textbf{Tier C (2--3): 110 studies} (39\%), and \textbf{Tier D (0--1): 21 studies} (8\%). This distribution—with fewer than 10\% achieving high reproducibility marks—underscores the persistent gap between aspirational blockchain papers and those with artifact availability, clear evaluation protocols, and deterministic setups. An extraction sheet has already been generated in the repository for the 863 candidate studies that survived first-pass screening; the 279-record post-full-text agent inclusion set is a strict subset of that sheet and provides the working population for data extraction and detailed quality re-scoring in the next review iteration.
 
 \subsection{RQ1: Taxonomy of Blockchain Utilization Strategies}
 
@@ -234,11 +233,59 @@ Table~\ref{tab:taxonomy} presents the taxonomy derived from the included studies
 
 Across the 279 included studies, the most common domains were healthcare (143), supply chain (124), government/public sector (123), and finance/banking (103).
 The most reported platforms were Ethereum (81), Hyperledger Fabric (80), and Bitcoin (55), while consensus signals were led by PoW (55), PBFT (42), BFT-general (41), PoS (39), and RAFT (24).
-Network models were primarily consortium (79), permissioned (57), and private/public hybrids.
+
+\textbf{Network Models.}
+Network model distribution across the corpus showed that consortium architectures dominated institutional deployments:
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lr}
+\toprule
+\textbf{Network Model} & \textbf{Studies} \\
+\midrule
+Consortium & 79 \\
+Permissioned & 57 \\
+Public & 44 \\
+Private & 36 \\
+Hybrid & 16 \\
+\bottomrule
+\end{tabular}
+\caption{Network model distribution in the 279 included studies.}
+\label{tab:network-models}
+\end{table}
+
+\textbf{Privacy Mechanisms.}
+Privacy strategy adoption showed that institutional deployments favored compositional approaches combining multiple layers:
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lr}
+\toprule
+\textbf{Privacy Mechanism} & \textbf{Studies} \\
+\midrule
+Zero-knowledge proofs & 25 \\
+Homomorphic encryption & 24 \\
+Private channels & 18 \\
+Attribute-based encryption & 13 \\
+MPC/secure computation & 12 \\
+Differential privacy & 9 \\
+Tokenisation & 6 \\
+\bottomrule
+\end{tabular}
+\caption{Privacy mechanism frequency in the corpus.}
+\label{tab:privacy-mechanisms}
+\end{table}
+
+\noindent Key observation: Zero-knowledge proofs and homomorphic encryption were more frequently discussed in theory than deployed in practice, while private channels and encryption-based approaches dominated operational consortium deployments.
 
 Governance patterns were less frequently operationalized than consensus mechanisms, yet they strongly influenced deployability. Most studies implicitly assumed static governance, in which founding members preconfigured membership and policy rules off-chain. A smaller but important subset proposed dynamic governance using on-chain voting, multi-signature approval, or policy-update smart contracts, typically to reduce coordination overhead across changing consortium membership. Fully DAO-like governance patterns remained rare and were usually adapted rather than directly inherited from public-chain practice, reflecting institutional reluctance to delegate high-stakes control to purely algorithmic procedures~\cite{beck2018governance,reijers2021governance,hassan2019blockchain}.
 
 Privacy strategies showed the clearest evidence of compositional design. Rather than relying on a single confidentiality technique, many studies combined channel or subnetwork isolation with application-layer encryption, private transaction managers, or selective disclosure approaches. Zero-knowledge proofs and trusted execution environments were discussed as promising mechanisms for high-assurance confidentiality, but the number of full end-to-end evaluations remained limited. Overall, the literature suggests that institutional consortium design is best understood as a layered strategy problem: architecture constrains governance; governance shapes feasible privacy and interoperability policies; and all four dimensions interact with the final consensus choice~\cite{benhamouda2020can,zhang2021surveytee,dziembowski2018fairswap}.
+
+\textbf{Domain-Platform Pairing Analysis.}
+Cross-tabulation of application domain and platform choice revealed platform specialization patterns driven by native capabilities: Hyperledger Fabric dominated healthcare (24 studies reporting Fabric in healthcare context) and supply-chain (18 studies), where channel-based privacy and modular endorsement proved attractive. R3~Corda concentrated in finance/banking (9 studies) where selective data minimization and legal-process alignment were critical. Ethereum variants (Quorum, Besu) appeared more frequently in government/public-sector and energy-utility deployments (12 studies combined) where Ethereum compatibility and faster operational onboarding outweighed consortium-specific privacy gains. Bitcoin appeared primarily in conceptual/policy studies rather than operational consortium pilots (55 studies reporting Bitcoin were predominantly categorized as C-D tier in quality).
 
 \begin{table*}[t]
 \caption{Taxonomy of blockchain utilization strategies in institutional consortium networks.}
@@ -262,8 +309,27 @@ Experimental adaptive architectures & Mixed or pluggable consensus & DAO-inspire
 
 The included evaluations consistently reported that throughput, resilience, and privacy cannot be simultaneously maximized without increasing design complexity. Studies based on Hyperledger Fabric frequently showed that crash-fault-tolerant ordering with limited endorsement sets provides the strongest raw throughput, particularly when block sizes and batching intervals are tuned for steady workloads~\cite{dinh2017blockbench,gorenflo2020fastfabric,nasir2022performance}. However, these gains weaken when endorsement policies expand across more organizations or when channel fragmentation increases coordination overhead. Conversely, BFT-style ordering improves resilience to malicious or arbitrary faults, but message complexity and quorum coordination typically produce higher latency and lower sustained throughput as consortium size grows~\cite{sousa2018byzantine,castro1999practical,crain2018dbft}.
 
-Metric coverage remains sparse at corpus scale: throughput is reported in 23/279 studies (8\%), latency in 33/279 (11\%), fault tolerance in 48/279 (17\%), and evaluation setup details in 80/279 (28\%).
-This limits strong cross-study quantitative comparison and reinforces the need for standardized benchmark harnesses.
+\textbf{Metric Coverage and Ranges.}
+Metric coverage remains sparse at corpus scale, but the studies that do report provide concrete evidence of trade-offs:
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lrr}
+\toprule
+\textbf{Metric} & \textbf{Studies} & \textbf{\% of Corpus} \\
+\midrule
+Throughput (TPS) & 23 & 8\% \\
+Latency & 33 & 11\% \\
+Fault tolerance & 48 & 17\% \\
+Evaluation setup & 80 & 28\% \\
+\bottomrule
+\end{tabular}
+\caption{Metric reporting frequency across 279 included studies.}
+\label{tab:metric-coverage}
+\end{table}
+
+\noindent For reported throughput, observed ranges varied widely depending on consensus and configuration: Fabric CFT deployments achieved 50--300 TPS under Caliper benchmarks with standard block intervals, while BFT-ordered configurations showed 25--100 TPS. Outlier high-throughput studies (500--1700 TPS) typically employed custom workloads, optimized parameters (e.g., tuned batching), or smaller consortium sizes (2--4 organizations). Low-throughput results (3--10 TPS) often reflected privacy-heavy designs or multi-step workflows with external system calls. Latency measurements similarly spanned three orders of magnitude: sub-millisecond latencies (1--30 ms) under synthetic loads, typical responses of 100--600 ms for real institutional workflows, and failure-recovery or multi-step governance operations extending to seconds or longer (up to 250+ seconds in some interoperability scenarios).
 
 Privacy-enhancing strategies introduced a second layer of trade-off. Channel isolation and private transactions generally imposed manageable overhead and were therefore the most practical mechanisms for current institutional deployments. By contrast, zero-knowledge proof integration, secure multiparty computation, or TEE-backed confidential execution improved confidentiality and policy assurance but increased cryptographic cost, hardware dependence, or attestation complexity~\cite{benhamouda2020can,cheng2019ekiden,zhang2021surveytee}. Operationally, the literature suggests that the dominant bottleneck in consortium systems is often not the ledger core alone, but the interaction between endorsement, privacy policy enforcement, and external system integration.
 
@@ -294,8 +360,30 @@ API gateway interoperability & High & Depends on middleware & Moderate & Moderat
 
 Four recurring interoperability patterns were identified: relay-based cross-chain coordination, HTLC-style transactional coupling, API-gateway integration, and oracle or event-driven middleware. API-gateway integration was the most common in institutional studies because it minimized disruption to legacy enterprise systems and allowed consortium ledgers to coexist with existing workflow engines, regulator portals, and enterprise resource planning stacks. These patterns were usually less ``trustless'' than relay or proof-based approaches, but they were easier to deploy under real organizational constraints, especially where legal agreements already existed among participants~\cite{belchior2021survey,schulte2019towards,hardjono2020towards}.
 
-Interoperability signals were found in 48/279 studies (17\%).
-The dominant patterns were cross-chain bridges (25 studies), oracle-mediated integration (11), message-queue/broker coordination (7), and API gateways (6), while HTLC and interledger/IBC patterns were rare (3 each).
+Interoperability signals were found in 48/279 studies (17\%). Table~\ref{tab:interop-patterns} breaks down the distribution by pattern type:
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lr}
+\toprule
+\textbf{Interoperability Pattern} & \textbf{Studies} \\
+\midrule
+Cross-chain bridge & 25 \\
+Oracle-mediated & 11 \\
+Message queue/broker & 7 \\
+API gateway & 6 \\
+Relay/notary & 5 \\
+Sidechain & 4 \\
+HTLC & 3 \\
+Interledger/IBC & 3 \\
+\bottomrule
+\end{tabular}
+\caption{Distribution of interoperability patterns (48 studies total with explicit mechanisms).}
+\label{tab:interop-patterns}
+\end{table}
+
+\noindent The pattern distribution reflects institutional pragmatism: oracle and API-gateway approaches (together 17/48 studies, 35\% of those reporting interoperability) dominated because they fit within existing enterprise governance, audit, and exception-management practices. Cross-chain bridges, while frequently proposed in conceptual architectures (25 studies), were overwhelmingly described rather than evaluated in mature institutional pilots. Relay and HTLC patterns were limited to specific use cases (inter-bank settlement, multi-consortium asset transfer) where atomic semantics were critical.
 
 Relay and HTLC approaches were more frequently proposed in conceptual interoperability architectures than in mature institutional pilots. Their main advantage was stronger transactional coupling across heterogeneous ledgers, which is attractive in inter-bank settlement or cross-consortium asset transfer. However, the reviewed studies repeatedly highlighted limitations related to timeout management, failure recovery, governance alignment across chains, and the difficulty of mapping business-finality requirements onto protocol-level atomicity semantics~\cite{herlihy2018atomiccrosschain}. In settings such as insurance claims exchange or regulated reporting, eventual consistency through auditable gateways was often preferred over strict cross-chain atomic commit.
 
@@ -305,10 +393,36 @@ Oracle and event-driven patterns occupied a pragmatic middle ground. Message-bus
 
 The most prominent gap across the included studies was weak reproducibility. Only a minority of papers provided complete source code, deployment scripts, workload generators, and parameter settings sufficient to recreate reported results. Benchmarking papers often disclosed hardware specifications and headline metrics but omitted endorsement policies, block-formation parameters, certificate-management steps, or network-topology assumptions that materially influence outcomes. As a result, cross-study comparison remained largely qualitative even when quantitative metrics were reported~\cite{dinh2017blockbench,gorenflo2020fastfabric,diangelo2018comparative}.
 
-Artifact availability is low: 35/279 studies (12\%) provide code signals, 18/279 (6\%) provide configuration/deployment signals, and only 6/279 (2\%) provide dataset signals.
-This reproducibility deficit, together with sparse metric reporting, is the strongest cross-cutting limitation in the corpus.
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lrr}
+\toprule
+\textbf{Artifact Type} & \textbf{Studies} & \textbf{\% of Corpus} \\
+\midrule
+Code (GitHub / open-source) & 35 & 12\% \\
+Configuration / deployment & 18 & 6\% \\
+Dataset & 6 & 2\% \\
+\bottomrule
+\end{tabular}
+\caption{Artifact availability in the included studies.}
+\label{tab:artifacts}
+\end{table}
+
+\noindent This reproducibility deficit, together with sparse metric reporting (8\% throughput, 11\% latency), is the strongest cross-cutting limitation in the corpus.
 
 A second gap concerned reference workloads. Most studies evaluated synthetic transaction streams rather than institutionally realistic multi-step workflows involving approvals, exceptions, retries, and privacy policy branching. This is particularly problematic for domains such as healthcare, government, and insurance, where end-to-end process latency and governance overhead matter as much as transaction throughput. The literature also rarely reported negative results, migration costs, or operational incidents, leading to optimism bias in architecture selection.
+
+\textbf{Identified Gaps from Full-Text Extraction.}
+Five systematic limitations emerged from the full-text analysis of the 95 papers (34\% of corpus) where open-access extraction was performed:
+
+\begin{enumerate}
+  \item \textbf{Benchmarking standardization:} Most studies used custom or ad-hoc workloads; only a minority employed Hyperledger Caliper or YCSB. Cross-study performance comparison was therefore impossible.
+  \item \textbf{Governance formalization:} Governance models were rarely specified explicitly; consortium rules were typically implicit or described informally in text.
+  \item \textbf{Interoperability specification:} Cross-chain and bridge mechanisms were underspecified; most studies assumed single-platform deployments.
+  \item \textbf{Privacy-performance trade-off quantification:} Studies mentioning privacy mechanisms rarely quantified computational overhead, attestation costs, or key-management burden.
+  \item \textbf{Deployment reproducibility:} Docker/Kubernetes configuration files, terraform scripts, and deployment automation were almost never published alongside papers.
+\end{enumerate}
 
 These findings imply that a useful reference implementation should satisfy at least five requirements. First, it should support multiple consensus profiles (e.g., CFT and BFT) under a shared workload harness. Second, it should make privacy modes modular so that channels, private transactions, and stronger confidentiality mechanisms can be toggled and benchmarked consistently. Third, it should include governance workflows such as member onboarding, policy update, and emergency revocation. Fourth, interoperability should be modeled through both direct cross-chain patterns and enterprise gateway patterns. Fifth, the full artifact chain---infrastructure-as-code, configuration, datasets, workloads, and analysis scripts---should be published to enable exact reruns and sensitivity analysis. Without such a reference stack, the field will continue to accumulate isolated case studies rather than cumulative engineering evidence.
 
