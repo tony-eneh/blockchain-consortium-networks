@@ -5,7 +5,7 @@ Drafted the empty Results, Discussion, and Conclusion sections for the paper **"
 
 ## Changes Made
 
-### 1. `main.tex`
+### 1. `paper.tex`
 - Replaced the author email TODO with `anthony@kumoh.ac.kr`
 - Completed the abstract ending with:
   - provisional PRISMA counts
@@ -52,7 +52,9 @@ Drafted the empty Results, Discussion, and Conclusion sections for the paper **"
 - Some bibliography metadata is intentionally flagged for verification before submission, especially:
   - `thomas2023interop`
   - `milosevic2018unibright`
-- LaTeX compilation was **not** verified in-session because `pdflatex`/`bibtex` were not available in the environment
+- LaTeX compilation was verified in-session and `paper.pdf` was produced successfully
+- The repository snapshot still does **not** contain raw search exports, a deduplicated master corpus, or a screening log, so exact PRISMA counts remain intentionally unresolved in `paper.tex`
+- Exact-title verification attempts for `thomas2023interop` and `milosevic2018unibright` returned no matches in Crossref or DuckDuckGo; they remain tracking placeholders in `references.bib` and were removed from active manuscript citation chains
 - Other pre-existing TODOs in Background/Methodology remain unchanged
 
 ## Suggested Next Checks
