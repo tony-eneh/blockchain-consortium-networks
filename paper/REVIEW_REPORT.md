@@ -54,6 +54,7 @@ Drafted the empty Results, Discussion, and Conclusion sections for the paper **"
   - `milosevic2018unibright`
 - LaTeX compilation was verified in-session and `paper.pdf` was produced successfully
 - The repository snapshot still does **not** contain raw search exports, a deduplicated master corpus, or a screening log, so exact PRISMA counts remain intentionally unresolved in `paper.tex`
+- Exact-title verification attempts for `thomas2023interop` and `milosevic2018unibright` returned no matches in Crossref or DuckDuckGo; they remain tracking placeholders in `references.bib` and were removed from active manuscript citation chains
 - Other pre-existing TODOs in Background/Methodology remain unchanged
 
 ## Suggested Next Checks
